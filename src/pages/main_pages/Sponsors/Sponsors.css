@@ -1,0 +1,161 @@
+.main {
+  background-size: 100% 100%;
+  min-height: 90.1vh;
+  min-width: 90.1vh;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  /* background-image: linear-gradient(
+      rgba(37, 100, 168, 0.5) 2px,
+      transparent 2px
+    ),
+    linear-gradient(90deg, rgba(52, 74, 119, 0.5) 2px, transparent 2px),
+    linear-gradient(rgba(255, 255, 255, 0.28) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.28) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 100px 20px, 20px 20px; */
+  /* background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px; */
+}
+
+.sponsor-container {
+  position: relative;
+
+  background-color: #269;
+  background-image: linear-gradient(
+      rgba(37, 100, 168, 0.5) 2px,
+      transparent 2px
+    ),
+    linear-gradient(90deg, rgba(52, 74, 119, 0.5) 2px, transparent 2px),
+    linear-gradient(rgba(255, 255, 255, 0.28) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.28) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 100px 20px, 20px 20px;
+}
+
+.spons-container {
+  background-color: #f0f8ffbb;
+  border-radius: 2em;
+  padding: 10px;
+  margin: 20px;
+  font-size: 1rem;
+}
+
+.spons-heading {
+  text-align: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.sponsor {
+  padding: 10px;
+  padding-bottom: 3rem;
+  width: 80%;
+  height: auto;
+}
+
+.spons-desc {
+  text-align: center;
+  background-color: #f0f8ffaa;
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.spons-img {
+  text-align: center;
+  margin: auto;
+
+  padding: 10px;
+}
+
+.subtitle {
+  padding-left: 2rem;
+  font-size: 3rem;
+  color: #fff;
+  margin: 0;
+}
+
+.spons-subtitle {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 2rem;
+}
+
+.pdf-container {
+  background-color: #000;
+  /* background-image: linear-gradient(
+      rgba(37, 100, 168, 0.5) 2px,
+      transparent 2px
+    ),
+    linear-gradient(90deg, rgba(52, 74, 119, 0.5) 2px, transparent 2px),
+    linear-gradient(rgba(255, 255, 255, 0.28) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.28) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 100px 20px, 20px 20px; */
+  /* background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px; */
+  text-align: center;
+  padding-bottom: 2rem;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+}
+
+/* .pdf {
+  margin-left: 100px;
+  margin-right: 150px;
+  padding-top: 30px;
+} */
+
+* {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitle-container {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: #000;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .sponsor {
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 20%;
+    width: 70%;
+  }
+
+  .spons-desc {
+    font-size: 1.5rem;
+    font-family: "Raleway", sans-serif;
+    padding: 2rem;
+  }
+
+  .spons-heading {
+    font-size: 2rem;
+  }
+
+  .pdf-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .main {
+    width: 100%;
+    height: auto;
+    min-width: auto !important;
+  }
+}

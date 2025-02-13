@@ -1,0 +1,135 @@
+/* Get Started */
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+.resources-section-h1 {
+  font-size: 7rem;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.first-header {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  color: #ffff;
+}
+
+.sub-header {
+  font-size: 2.5rem !important;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.second-header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.second-sub-header {
+  font-size: 7rem !important;
+}
+
+.third-header {
+  font-size: 112px !important;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.rowOneColOne,
+.rowOneColTwo,
+.rowOneColThree,
+.rowOneColFour,
+.rowOneColFive,
+.rowOneColSix {
+  margin: 0 !important;
+}
+
+.rowOneColThree {
+  margin: 0 !important;
+}
+
+.resources-section-p,
+.getstarted-cap {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#figure-getstarted {
+  justify-content: space-evenly;
+}
+
+.accent-color {
+  color: rgb(57, 119, 242);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+}
+
+.robosub-accent-color {
+  color: #ffcf00;
+}
+
+.getstarted-card {
+  background-color: #26292b;
+}
+
+.getstarted-card-p {
+  color: white;
+}
+
+.btn-link {
+  color: #fff !important;
+}
+
+.btn-link:hover {
+  color: #ffcf00 !important;
+}
+
+.header {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+}
+
+.holder {
+  padding: 0 !important;
+}
+
+.header-one,
+.header-two,
+.header-three {
+  background-color: #000;
+  color: #ffff;
+}
+
+.header-one {
+  padding: 2rem 1rem;
+}
+
+.header-two {
+  padding: 2rem 1rem;
+}
+
+.header-three {
+  padding: 2rem 1rem;
+}
+
+.header-four {
+  padding: 2rem 1rem;
+}
+
+.text-one {
+  color: #ffff;
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .resources-section-h1,
+  .second-sub-header,
+  .third-sub-header {
+    font-size: 4.5rem !important;
+  }
+
+  .second-header {
+    padding: 1rem 0;
+  }
+}

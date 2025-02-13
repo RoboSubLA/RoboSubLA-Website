@@ -1,0 +1,142 @@
+.fleet-container {
+  background-color: #269;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5) 2px,
+      transparent 2px
+    ),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.5) 2px, transparent 2px),
+    linear-gradient(rgba(255, 255, 255, 0.28) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.28) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+.jumbotron-container {
+  text-align: center;
+  padding: 3rem 1rem;
+  margin-bottom: 0;
+  margin-top: px;
+  font-family: "Share Tech", sans-serif;
+  font-size: 18px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-shadow: 8px 8px 10px #0000008c;
+  /* background-color: #224573;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+    linear-gradient(to right top, #227ba8, #2270a8, #2267a8, #225ea8, #2253a8); */
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+}
+
+.jumbotron-h1 {
+  text-decoration: underline;
+}
+
+.fleet-carddeck {
+  margin: 0px 0px 0px 0px;
+  justify-content: center;
+}
+
+.fleet-card {
+  max-width: 800px;
+  max-height: 900px;
+  text-align: center;
+}
+
+.fleet-card-body {
+  background-color: #000000d8;
+}
+
+.fleet-link {
+  padding: 8px 20px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.fleet-link:hover {
+  color: #ffffff;
+  background-color: #a00a19;
+  text-decoration: none;
+}
+
+.fleet-card-title {
+  font-size: 26px;
+  margin-top: 0.75rem;
+  color: #fff;
+}
+
+.fleet-card-text {
+  color: #fff;
+  font-size: 18px;
+}
+
+.button-container {
+  flex-direction: column;
+}
+.jumbotron-button {
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 200px;
+  margin: 0px 50px 10px 50px;
+  position: relative;
+  text-transform: uppercase;
+  width: 100%;
+  background-color: #fff;
+}
+.jumbotron-button:hover {
+  color: #fff;
+  background-color: #ffcf00;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+
+h1,
+h2,
+h3,
+button {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 4px;
+}
+
+a,
+text,
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+.text {
+  background-color: black;
+}
+
+.card {
+  margin-top: 2rem;
+}
+
+.top {
+  background-color: #000;
+}
+
+.top-2 {
+  background-color: #fff;
+}
+
+.mid {
+  background-color: #000;
+}
+
+.mid-2 {
+  background-color: #fff;
+}
+
+.bottom {
+  background-color: #000;
+}

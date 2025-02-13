@@ -1,0 +1,85 @@
+/* Github & Git */
+.git{
+    text-align: center;
+    background-color: #718093
+
+}
+
+.github-logo {
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+.ros-logo{
+  width: 70%;
+  padding-top: 80px;
+  padding-left: 30%;
+      padding-bottom: 80px;
+  content: center;
+}
+
+.git-links-row {
+    justify-content: center;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.git-links {
+    color: rgb(1, 153, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.git-links:hover {
+    color: rgb(0, 0, 0);
+}
+
+.git-card{
+    background-color: rgb(53, 52, 60);
+    border-radius: 20px;
+    margin: 10px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.git-card-title {
+    color: rgb(32, 127, 250);
+    font-family: 'Source Code Pro', monospace;
+}
+
+.git-card-text {
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.git-cheat-p {
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+}
+
+.git-cheat-h4 {
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+.git-code {
+    font-family: 'Source Code Pro', monospace;
+    background: #b1aeaead;
+    border: 1px solid #ddd;
+    border-left: 7px solid #01f301;
+    color: rgb(18, 247, 10);
+    page-break-inside: avoid;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    font-weight: bold;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+
+.git-cheat-code-row {
+    justify-content: center;
+}

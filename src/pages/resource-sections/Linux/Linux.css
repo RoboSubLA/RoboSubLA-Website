@@ -1,0 +1,344 @@
+/* Linux */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.linux-jumbo {
+    background-color:  #718093;
+}
+
+.linux-container {
+    text-align: center;
+}
+
+.linux-logo {
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+.linux-h1 {
+    font-size: 50px;
+}
+
+.linux-h3 {
+    font-size: 30px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight:bold;
+}
+
+.linux-p {
+    font-size: 16px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight:bold;
+}
+
+.linux-listgroup {
+    text-align: left;
+}
+
+.linux-list-item {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    background-color: rgb(80, 79, 79);
+    color: white;
+    
+}
+
+.linux-methods-jumbo {
+    background: linear-gradient(-45deg, #df7300, #ffe100);
+    background-size: 200% 200%;
+    animation: gradient 15s ease infinite;
+
+    border-radius: 30px;
+    border-left: 8px solid rgb(66, 67, 64);
+    border-right: 8px solid rgb(66, 67, 64);
+}
+
+.accent-color-linux {
+    color: rgb(248, 212, 6);
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+
+}
+
+.linux-links-row {
+    justify-content: space-evenly;
+}
+
+.linux-links {
+    border: 4px solid black;
+    border-radius: 20px;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    font-weight:900;
+    margin: 5px;
+    font-family: 'Source Code Pro', monospace;
+}
+.linux-links:hover {
+    text-decoration: none;
+    color:black;
+    background-color: rgb(255, 123, 0);
+    border: 5px solid black;
+}
+
+.linux-yt {
+    width: 500px;
+    height: 300px;
+    border: 4px solid rgb(3, 5, 3);
+    border-radius: 10px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+  }
+
+
+
+  /* iPhone X, iPhone 6/7/8 Plus, */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    
+
+    .linux-h1 {
+        font-size: 25px;
+    
+    }
+    
+    .linux-h3 {
+        font-size: 18px;
+        font-family: 'Source Code Pro', monospace;
+        font-weight:bold;
+    }
+    
+    .linux-p {
+        font-size: 14px;
+        font-family: 'Source Code Pro', monospace;
+        font-weight:bold;
+    }
+    
+    
+    .linux-list-item {
+        font-family: 'Source Code Pro', monospace;
+        font-size: 14px;        
+    }
+    
+    .linux-links {
+        font-weight: lighter;
+        font-size: 14px;
+    }
+    .linux-links:hover {
+        text-decoration: none;
+        color:black;
+        background-color: rgb(255, 123, 0);
+        border: 5px solid black;
+    }
+    
+    .linux-yt {
+        width: 200px;
+        height: 100px;
+        border: 4px solid rgb(3, 5, 3);
+        border-radius: 10px;
+    }
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .linux-h1 {
+        font-size: 25px;
+    }
+    
+    .linux-h3 {
+        font-size: 18px;
+        font-family: 'Source Code Pro', monospace;
+        font-weight:bold;
+    }
+    
+    .linux-p {
+        font-size: 14px;
+        font-family: 'Source Code Pro', monospace;
+        font-weight:bold;
+    }
+    
+    
+    .linux-list-item {
+        font-family: 'Source Code Pro', monospace;
+        font-size: 14px;        
+    }
+    
+    .linux-links {
+        font-weight: lighter;
+        font-size: 14px;
+    }
+    .linux-links:hover {
+        text-decoration: none;
+        color:black;
+        background-color: rgb(255, 123, 0);
+        border: 5px solid black;
+    }
+    
+    .linux-yt {
+        width: 200px;
+        height: 100px;
+        border: 4px solid rgb(3, 5, 3);
+        border-radius: 10px;
+    }
+}
+
+
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    .linux-h1 {
+        font-size: 25px;
+    }
+    
+    .linux-h3 {
+        font-size: 18px;
+        font-family: 'Source Code Pro', monospace;
+        font-weight:bold;
+    }
+    
+    .linux-p {
+        font-size: 14px;
+        font-family: 'Source Code Pro', monospace;
+        font-weight:bold;
+    }
+    
+    .linux-list-item {
+        font-family: 'Source Code Pro', monospace;
+        font-size: 14px;        
+    }
+    
+    .linux-links {
+        font-weight: lighter;
+        font-size: 14px;
+    }
+
+    .linux-links:hover {
+        text-decoration: none;
+        color:black;
+        background-color: rgb(255, 123, 0);
+        border: 5px solid black;
+    }
+    
+    .linux-yt {
+        width: 200px;
+        height: 100px;
+        border: 4px solid rgb(3, 5, 3);
+        border-radius: 10px;
+    }
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    .linux-h1 {
+        font-size: 25px;
+    }
+    
+    .linux-h3 {
+        font-size: 18px;
+        font-family: 'Source Code Pro', monospace;
+        font-weight:bold;
+    }
+    
+    .linux-p {
+        font-size: 14px;
+        font-family: 'Source Code Pro', monospace;
+        font-weight:bold;
+    }
+    
+    .linux-list-item {
+        font-family: 'Source Code Pro', monospace;
+        font-size: 14px;        
+    }
+    
+    .linux-links {
+        font-weight: lighter;
+        font-size: 14px;
+    }
+
+    .linux-links:hover {
+        text-decoration: none;
+        color:black;
+        background-color: rgb(255, 123, 0);
+        border: 5px solid black;
+    }
+    
+    .linux-yt {
+        width: 200px;
+        height: 100px;
+        border: 4px solid rgb(3, 5, 3);
+        border-radius: 10px;
+    }
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .linux-h1 {
+        font-size: 35px;
+    }
+    
+    .linux-h3 {
+        font-size: 22px;
+        font-family: 'Source Code Pro', monospace;
+        font-weight:bold;
+    }
+    
+    .linux-p {
+        font-size: 16px;
+        font-family: 'Source Code Pro', monospace;
+        font-weight:bold;
+    }
+    
+    
+    .linux-list-item {
+        font-family: 'Source Code Pro', monospace;
+        font-size: 14px;        
+    }
+    
+    .linux-links {
+        font-weight: lighter;
+        font-size: 16px;
+    }
+    .linux-links:hover {
+        text-decoration: none;
+        color:black;
+        background-color: rgb(255, 123, 0);
+        border: 5px solid black;
+    }
+    
+    .linux-yt {
+        width: 400px;
+        height: 200px;
+        border: 4px solid rgb(3, 5, 3);
+        border-radius: 10px;
+    }
+}

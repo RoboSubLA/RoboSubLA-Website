@@ -1,0 +1,524 @@
+/* .cont {
+  background: radial-gradient(
+        1.5em 6.28571em at 1.95em,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 0.25) 50%,
+        rgba(255, 255, 255, 0.25) 55%,
+        rgba(255, 255, 255, 0) 55%
+      )
+      0 0,
+    radial-gradient(
+        1.5em 6.28571em at -0.45em,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 0.25) 50%,
+        rgba(255, 255, 255, 0.25) 55%,
+        rgba(255, 255, 255, 0) 55%
+      )
+      1.5em 5.5em,
+    radial-gradient(
+        2.3em 4.57143em at 2.99em,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 0.3) 50%,
+        rgba(255, 255, 255, 0.3) 55%,
+        rgba(255, 255, 255, 0) 55%
+      )
+      0 0,
+    radial-gradient(
+        2.3em 4.57143em at -0.69em,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 0.3) 50%,
+        rgba(255, 255, 255, 0.3) 55%,
+        rgba(255, 255, 255, 0) 55%
+      )
+      2.3em 4em,
+    radial-gradient(
+        3.5em 6.28571em at 4.55em,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 0.25) 50%,
+        rgba(255, 255, 255, 0.25) 55%,
+        rgba(255, 255, 255, 0) 55%
+      )
+      0 0,
+    radial-gradient(
+        3.5em 6.28571em at -1.05em,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 0.25) 50%,
+        rgba(255, 255, 255, 0.25) 55%,
+        rgba(255, 255, 255, 0) 55%
+      )
+      3.5em 5.5em,
+    radial-gradient(#15fbff, #1582ff);
+  background-color: DodgerBlue;
+  background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em,
+    3.5em 11em, 100% 100%;
+  background-repeat: repeat;
+} */
+
+.row {
+  margin: 0;
+}
+
+.figure-caption {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.main-container {
+  display: flex;
+  text-align: center;
+  background-color: white;
+  max-width: 1400px;
+  padding-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.members-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none;
+  flex: 0 0 66.333333%;
+  justify-content: space-around;
+  margin-bottom: 2.5rem;
+}
+
+.members-img {
+  border-radius: 50%;
+  height: 171px;
+  width: 171px;
+}
+
+.members-header {
+  --x: 50%;
+  --y: 50%;
+  font-size: 40px;
+  position: relative;
+  appearance: none;
+  padding: 10px;
+  width: 100%;
+  color: black;
+  outline: none;
+  border-radius: 100px;
+  background: linear-gradient(rgb(252, 250, 250), rgb(255, 255, 255))
+      padding-box,
+    radial-gradient(farthest-corner at var(--x) var(--y), #21b9ff, #008cff)
+      border-box;
+  margin-bottom: 3.5rem;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.2rem;
+}
+
+.members-container {
+  padding-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.figure-container {
+  margin-top: 10px;
+  margin-bottom: 70px;
+  list-style: none;
+  flex: 0 0 24.333333%;
+}
+
+.flip-figure {
+  background-color: transparent;
+  width: 171px;
+  height: 180px;
+  perspective: 1000px;
+}
+
+.flip-figure-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-figure:hover .flip-figure-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-figure-front,
+.flip-figure-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-figure-front {
+  background-color: transparent;
+  color: black;
+}
+
+/* Style the back side */
+.flip-figure-back {
+  border-radius: 50%;
+  color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+  background: linear-gradient(-45deg, #0061ff, #60efff);
+  background-size: 200% 200%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.flip-figure-back-content {
+  margin-top: 45%;
+}
+
+.fig-back-icon {
+  font-size: 34px;
+  color: black;
+  margin: 2px;
+}
+
+.fig-back-icon:hover {
+  color: rgb(204, 201, 211);
+}
+
+.past-teams {
+  font-size: 30px;
+  background-color: gray;
+}
+
+.sd-left {
+  text-align: left;
+  justify-content: left;
+  font-display: gray;
+}
+
+/* iPhone X, iPhone 6/7/8 Plus, */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .cont {
+    font-family: "Bebas Neue", sans-serif;
+  }
+
+  .main-container {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    max-width: 340.5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .flip-figure {
+    background-color: transparent;
+    width: 200px !important;
+    height: 200px !important;
+    perspective: 1000px;
+  }
+  .flip-figure-back {
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    transform: rotateY(180deg);
+    background: linear-gradient(-45deg, #0061ff, #60efff);
+    background-size: 200% 100%;
+    animation: gradient 15s ease infinite;
+  }
+  /* Position the front and back side */
+  .flip-figure-front,
+  .flip-figure-back {
+    position: absolute;
+    width: 171px;
+    height: 171px;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .flip-figure-front {
+    background-color: transparent;
+    color: black;
+    font-size: 14px;
+  }
+  .fig-back-icon {
+    font-size: 42px;
+    color: black;
+    margin: 2px;
+  }
+  .flip-figure-back-text {
+    font-size: 24px;
+  }
+  .members-header {
+    font-size: 30px;
+    margin-bottom: 4rem;
+  }
+
+  .figure-container {
+    margin-top: 0.6rem;
+    margin-bottom: 7.8rem;
+  }
+
+  .flip-figure-inner {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flip-figure-back-content {
+    margin-top: 45%;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .main-container {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    max-width: 340.5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .flip-figure {
+    background-color: transparent;
+    width: 120px;
+    height: 180px;
+    perspective: 1000px;
+  }
+  .flip-figure-back {
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    transform: rotateY(180deg);
+    background: linear-gradient(-45deg, #0061ff, #60efff);
+    background-size: 200% 100%;
+    animation: gradient 15s ease infinite;
+  }
+  /* Position the front and back side */
+  .flip-figure-front,
+  .flip-figure-back {
+    position: absolute;
+
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  .flip-figure-front {
+    background-color: transparent;
+    color: black;
+    font-size: 14px;
+  }
+  .fig-back-icon {
+    font-size: 42px;
+    color: black;
+    margin: 2px;
+  }
+  .flip-figure-back-text {
+    font-size: 24px;
+  }
+  .members-header {
+    font-size: 30px;
+  }
+}
+#email {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+  .main-container {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    max-width: 340.5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .flip-figure {
+    background-color: transparent;
+    width: 120px;
+    height: 180px;
+    perspective: 1000px;
+  }
+  .flip-figure-back {
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    transform: rotateY(180deg);
+    background: linear-gradient(-45deg, #0061ff, #60efff);
+    background-size: 200% 100%;
+    animation: gradient 15s ease infinite;
+  }
+  /* Position the front and back side */
+  .flip-figure-front,
+  .flip-figure-back {
+    position: absolute;
+    width: 90%;
+    height: 60%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  .flip-figure-front {
+    background-color: transparent;
+    color: black;
+    font-size: 14px;
+  }
+  .fig-back-icon {
+    font-size: 24px;
+    color: black;
+    margin: 2px;
+  }
+  .flip-figure-back-text {
+    font-size: 12px;
+  }
+
+  .members-header {
+    font-size: 30px;
+  }
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .main-container {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    max-width: 340.5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .flip-figure {
+    background-color: transparent;
+    width: 120px;
+    height: 180px;
+    perspective: 1000px;
+  }
+  .flip-figure-back {
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    transform: rotateY(180deg);
+    background: linear-gradient(-45deg, #0061ff, #60efff);
+    background-size: 200% 100%;
+    animation: gradient 15s ease infinite;
+  }
+  /* Position the front and back side */
+  .flip-figure-front,
+  .flip-figure-back {
+    position: absolute;
+    width: 90%;
+    height: 60%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  .flip-figure-front {
+    background-color: transparent;
+    color: black;
+    font-size: 14px;
+  }
+  .fig-back-icon {
+    font-size: 24px;
+    color: black;
+    margin: 2px;
+  }
+  .flip-figure-back-text {
+    font-size: 12px;
+  }
+  .members-header {
+    font-size: 30px;
+  }
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .main-container {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    max-width: 900px;
+    justify-content: center;
+    align-items: center;
+  }
+  .flip-figure {
+    background-color: transparent;
+    width: 120px;
+    height: 180px;
+    perspective: 1000px;
+  }
+  .flip-figure-back {
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    transform: rotateY(180deg);
+    background: linear-gradient(-45deg, #0061ff, #60efff);
+    background-size: 200% 100%;
+    animation: gradient 15s ease infinite;
+  }
+  /* Position the front and back side */
+  .flip-figure-front,
+  .flip-figure-back {
+    position: absolute;
+    width: 90%;
+    height: 60%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  .flip-figure-front {
+    background-color: transparent;
+    color: black;
+    font-size: 14px;
+  }
+  .fig-back-icon {
+    font-size: 24px;
+    color: black;
+    margin: 2px;
+  }
+  .flip-figure-back-text {
+    font-size: 12px;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+
+span,
+text,
+p,
+h1,
+h2,
+h3,
+button,
+small,
+.social-logo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.card-content {
+  margin-top: 5rem;
+}
+
+.card {
+  justify-content: center;
+  align-items: center;
+}

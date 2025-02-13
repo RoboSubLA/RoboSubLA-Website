@@ -1,0 +1,212 @@
+.content {
+  transform: none !important;
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -ms-transform: none !important;
+  -o-transform: none !important;
+  position: sticky !important;
+}
+
+.content {
+  flex: 1; /* Take remaining space */
+  padding-left: 20px; /* Prevent content from overlapping */
+  max-width: calc(100% - 250px); /* Ensure content does not exceed width */
+  overflow-x: hidden;
+}
+
+.sidebar-content-container {
+  background-color: #000;
+}
+
+.sidebar-content-container {
+  display: flex;
+  align-items: flex-start; /* Ensure the sidebar and content align at the top */
+}
+
+.wrapper {
+  padding: 0 !important;
+}
+
+.resource-title {
+  text-align: center;
+}
+.resource-container {
+  background-color: #718093;
+}
+.resource-row {
+  height: 1240px;
+}
+
+.resource-left-col {
+  background-color: rgb(38, 41, 43);
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.resource-item-container {
+  position: fixed;
+}
+
+.resource-item {
+  padding: 0.5em;
+}
+
+.resource-iframe {
+  width: 700px;
+  height: 400px;
+}
+.iframe-align {
+  text-align: center;
+}
+.resource-list {
+  padding: 1em;
+}
+.resource-text {
+  text-align: center;
+}
+.resource-text-title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 100px;
+}
+.links-container {
+  text-align: center;
+}
+.resource-links {
+  background-color: #44c767;
+  border-radius: 39px;
+  border: 3px solid #0b871a;
+  display: inline-block;
+  cursor: pointer;
+  color: #313030;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 10px 21px;
+  text-shadow: 0px 1px 0px #2f6627;
+  margin: 10px 10px 10px 10px;
+}
+.resource-links:hover {
+  background-color: #49c50b;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.resource-links:active {
+  position: relative;
+  top: 1px;
+}
+
+/* iPhone X, iPhone 6/7/8 Plus, */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .d-flex {
+    display: inline !important;
+  }
+
+  .resource-item-container {
+    margin-top: 1rem;
+    position: unset;
+  }
+  .resource-item {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .resource-iframe {
+    width: 300px;
+    height: 200px;
+  }
+  .resource-text-title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .resource-item-container {
+    margin-top: 1rem;
+    position: unset;
+  }
+  .resource-item {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    position: unset;
+  }
+  .resource-iframe {
+    width: 300px;
+    height: 200px;
+  }
+  .resource-text-title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+  }
+}
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+  .resource-item-container {
+    margin-top: 1rem;
+    position: unset;
+  }
+  .resource-item {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .resource-iframe {
+    width: 300px;
+    height: 200px;
+  }
+  .resource-text-title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 35px;
+  }
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .resource-item-container {
+    margin-top: 1rem;
+    position: unset;
+  }
+  .resource-item {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .resource-iframe {
+    width: 300px;
+    height: 200px;
+  }
+  .resource-text-title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 35px;
+  }
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .resource-item-container {
+    margin-top: 1rem;
+  }
+  .resource-item {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .resource-iframe {
+    width: 500px;
+    height: 300px;
+  }
+  .resource-text-title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+  }
+}

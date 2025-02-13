@@ -1,0 +1,904 @@
+{
+  "2020-2021": {
+    "officers": [
+      {
+        "name": "Ricardo Medina",
+        "img": "/images/members/ricardo.jpg",
+        "title": "President",
+        "text": "Senior Cs Major and Team Lead for Senior Design",
+		"linkI": "",
+        "link": "https://www.linkedin.com/in/ricardo-medina-ba7b2416b/"
+      },
+      {
+        "name": "Aren Petrossian",
+        "img": "/images/members/aren.jpg",
+        "title": "Vice-President",
+        "text": "Mechanical Engineer Student with a 3.9 gpa",
+		"linkI": "",
+        "link": "https://www.linkedin.com/in/aren-petrossian/"
+      },
+      {
+        "name": "Heriberto Gonzalez",
+        "img": "/images/members/gonzo.jpg",
+        "title": "Officer / IT",
+        "text": "",
+		"linkI": "",
+        "link": "https://www.linkedin.com/in/hg12/"
+      },
+      {
+        "name": "Eric Anthony",
+        "img": "/images/members/eric.jpg",
+        "title": "Officer / Treasurer",
+        "text": "",
+		"linkI": "",
+        "link": "https://www.linkedin.com/in/ewaengineering/"
+      },
+      {
+        "name": "Saul Loza",
+        "img": "/images/members/saul.jpg",
+        "title": "Officer / Outreach",
+        "text": "Actuated Systems Lead",
+		"linkI": "",
+        "link": "https://www.linkedin.com/"
+      }
+    ],
+    "members": [
+      {
+        "name": "Yara Ajjawi",
+        "img": "/images/members/yara.jpg",
+        "title": "",
+		"text": "",
+		"linkI": "",
+        "link": "https://www.linkedin.com/in/yara-ajjawi"
+      },
+      {
+        "name": "Jennifer Serrano",
+        "img": "/images/members/jenniferserrano.jpg",
+        "title": "",
+        "text": "",
+		"linkI": "",
+        "link": ""
+      },
+      {
+        "name": "Katherine Bonomo",
+        "img": "/images/members/katherine.jpg",
+        "title": "",
+        "text": "",
+		"linkI": "",
+        "link": "https://www.linkedin.com/in/katherine-bonomo-737a63112/"
+      },
+      {
+        "name": "Victor Solis",
+        "img": "/images/members/victorsolis.jpg",
+        "title": "",
+        "text": "",
+		"linkI": "",
+        "link": "https://www.linkedin.com/in/victor-solis/"
+      },
+      {
+        "name": "Adrian Salgado Lopez",
+        "img": "/images/members/adriansalgado.png",
+        "title": "",
+        "text": "",
+		"linkI": "",
+        "link": "https://www.linkedin.com/in/adriansalgadocsula/"
+      },
+      {
+        "name": "Ashley Tran",
+        "img": "/images/members/ashley.jpg",
+        "title": "",
+        "text": "",
+    "linkI": "",
+        "link": "https://www.linkedin.com/in/ashley-t-1573401b8/"
+      },
+      {
+        "name": "Forrest Hale",
+        "img": "/images/sponsors/mascot.png",
+        "title": "",
+        "text": "",
+		"linkI": "",
+        "link": ""
+      },
+      {
+        "name": "Vanessa Carrillo",
+        "img": "/images/sponsors/mascot.png",
+        "title": "",
+        "text": "",
+		"linkI": "",
+        "link": ""
+      },
+      {
+        "name": "Charlie Martinez",
+        "img": "/images/sponsors/mascot.png",
+        "title": "",
+        "text": "",
+		"linkI": "",
+        "link": ""
+      }
+    ],
+    "seniordesignCS": [
+      {
+        "name": "Carl Solli",
+        "img": "/images/members/Carl.jpg",
+        "title": "Software Leader",
+        "text": "Senior Cs Major and Team Lead for Senior Design",
+		"linkI": "",
+        "link": "https://www.linkedin.com/in/carl-christian-solli-237378171/",
+        "email":"carl_solli@hotmail.com"
+      },
+      {
+        "name": "Ashkan Aledavoud",
+        "img": "/images/members/Ashkan.jpg",
+        "title": "Mission Planning Leader",
+		"linkI": "",
+        "link": "",
+        "email":"aaledav@calstatela.edu"
+      },
+      {
+        "name": "Christian Castillo",
+        "img": "/images/members/Christian.jpg",
+        "title": "CV Leader & Sensors",
+		"linkI": "",
+        "link": "",
+        "email":"ccasti26@calstatela.edu"
+      },
+      {
+        "name": "Leslie Araujo",
+        "img": "/images/members/leslieAraujo.jpg",
+        "title": "Controls Leader & Sensors",
+		"linkI": "",
+        "link": "",
+        "email":"laraujo6@calstatela.edu"
+      },
+      {
+        "name": "Alan Chan",
+        "img": "/images/members/Alan.jpg",
+        "title": "Website Leader & Mission Planning",
+		"linkI": "",
+        "link": "",
+        "email":"achan116@calstatela.edu"
+      },
+      {
+        "name": "Bryan Sanchez",
+        "img": "/images/members/Bryan.jpg",
+        "title": "Computer Vision",
+		"linkI": "",
+        "link": "",
+        "email":"bsanc115@calstatela.edu"
+      },
+      {
+        "name": "Daniel Valadez",
+        "img": "/images/members/Daniel.jpg",
+        "title": "Computer Vision",
+        "text":"",
+		"linkI": "",
+        "link": "",
+        "email":"dvalade9@calstatela.edu"
+      },
+      {
+        "name": "Robin Romero",
+        "img": "/images/members/Robin.jpg",
+        "title": "Computer Vision",
+		"linkI": "",
+        "link": "",
+        "email":"romero.rbna@gmail.com"
+      },
+	  {
+        "name": "Edwin Tran",
+        "img": "/images/members/EdwinTran.png",
+        "title": "Controls & Sensors",
+		"linkI": "",
+        "link": "",
+        "email":"etran28@calstatela.edu"
+      },
+	  {
+        "name": "Jeanie Jeon",
+        "img": "/images/members/Jeanie.jpg",
+        "title": "Website",
+		"linkI": "",
+        "link": "",
+        "email":"jeaniejeon@gmail.com"
+      }
+    ],
+	    "seniordesignME": [
+      {
+        "name": "Forrest Hale",
+        "img": "/images/sponsors/mascot.png",
+        "title": "Mechanical Engineer",
+		"linkI": "",
+        "link": "",
+        "email":"fhale@calstatela.edu"
+      },
+      {
+        "name": "Zachary Beatti",
+        "img": "/images/sponsors/mascot.png",
+        "title": "Mechanical Engineer",
+		"linkI": "",
+        "link": "",
+        "email":"zbeatti@calstatela.edu"
+      },
+      {
+        "name": "Damien Ramos",
+        "img": "/images/sponsors/mascot.png",
+        "title": "Mechanical Engineer",
+		"linkI": "",
+        "link": "",
+        "email":"dramos96@calstatela.edu"
+      }
+    ],
+	    "seniordesignEE": [
+      {
+        "name": "Victor Sandoval",
+        "img": "/images/sponsors/mascot.png",
+        "title": "Electrical Engineer",
+		"linkI": "",
+        "link": "",
+        "email":"vsandov8@calstatela.edu"
+      },
+      {
+        "name": "Andrew Maravilla",
+        "img": "/images/sponsors/mascot.png",
+        "title": "Electrical Engineer",
+		"linkI": "",
+        "link": "",
+        "email":"amaravi7@calstatela.edu"
+      },
+      {
+        "name": "Edward Komperda",
+        "img": "/images/sponsors/mascot.png",
+        "title": "Electrical Engineer",
+		"linkI": "",
+        "link": "",
+        "email":"ekomper@calstatela.edu"
+      },
+      {
+        "name": "Emigdio Alaniz",
+        "img": "/images/sponsors/mascot.png",
+        "title": "Electrical Engineer",
+		"linkI": "",
+        "link": "",
+        "email":"ealaniz5@calstatela.edu"
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Professor Richard Cross",
+        "img": "/images/advisors/Richard.jpg",
+        "title": "Adjunct Professor",
+        "text": "Senior Cs Major and Team Lead for Senior Design",
+		"linkI": "",
+        "link": "https://www.linkedin.com/in/richard-k-j-cross-8ab65431/",
+        "email":"rcross3@calstatela.edu"
+      },
+      {
+        "name": "Dr.  He Shen",
+        "img": "/images/advisors/heshen.jpg",
+        "title": "Associate Professor",
+		"linkI": "",
+        "link": "https://www.linkedin.com/in/he-shen-16148878/",
+        "email":"hshen6@calstatela.edu"
+      },
+      {
+        "name": "Dr. Mark Tufenkjian",
+        "img": "/images/advisors/tuf.png",
+        "title": "Interim Associate Dean",
+		"linkI": "",
+        "link": "",
+        "email":"mtufenk@calstatela.edu"
+      }
+    ]
+  },
+  "2021-2022": {"officers": [
+      {
+        "name": "Aren Petrossian",
+        "img": "/images/members/aren.jpg",
+        "title": "President",
+        "text": "Mechanical Engineer Student with a 4.0 gpa",
+		    "linkI": "",
+        "link": "https://www.linkedin.com/in/aren-petrossian/",
+        "email":"arenpetrossian@ymail.com"
+      },
+      {
+        "name": "Katherine Bonomo",
+        "img": "/images/members/katherine.jpg",
+        "title": "Vice-President",
+        "text": "",
+		    "linkI": "",
+        "link": "https://www.linkedin.com/in/katherine-bonomo-737a63112/details/experience/",
+        "email":"kbonomo@calstatela.edu"
+      },
+      {
+        "name": "Adrian Salgado Lopez",
+        "img": "/images/members/adriansalgado.png",
+        "title": "Computer Vision Co-Lead",
+        "text": "",
+		    "linkI": "",
+        "link": "https://www.linkedin.com/in/adriansalgadocsula/",
+        "email":"asalga51@calstatela.edu"
+      },
+      {
+        "name": "Jennifer Serrano",
+        "img": "/images/members/jenniferserrano.jpg",
+        "title": "Computer Vision Co-Lead",
+        "text": "",
+		    "linkI": "",
+        "link": "",
+        "email":"jserra83@calstatela.edu"
+      },
+      {
+        "name": "Victor Solis",
+        "img": "/images/members/victorsolis.jpg",
+        "title": "Mission Planning Lead",
+        "text": "",
+        "linkI": "",
+        "link": "https://www.linkedin.com/in/victor-solis/",
+        "email": "vsolis13@calstatela.edu"
+      }
+    ],
+    "members": [
+      {
+        "name": "Ashley Tran",
+        "img": "/images/members/ashley.jpg",
+        "title": "Computer Vision",
+	    	"text": "",
+		    "linkI": "",
+        "link": "",
+        "email":"atran135@calstatela.edu"
+      },
+      {
+        "name": "Perla Ramirez",
+        "img": "/images/members/perla.jpg",
+        "title": "Computer Vision",
+	    	"text": "",
+		    "linkI": "",
+        "link": "https://www.linkedin.com/in/perla-ramirez-a92164145/",
+        "email":"pramir62@calstatela.edu"
+      },
+      {
+        "name": "Paola Reyes",
+        "img": "/images/members/paola.jpg",
+        "title": "Frame & Hull",
+	    	"text": "",
+		    "linkI": "",
+        "link": "",
+        "email":"preyes29@calstatela.edu"
+      },
+      {
+        "name": "Jose Rangel",
+        "img": "/images/members/joseRangel.jpg",
+        "title": "Frame & Hull",
+	    	"text": "",
+		    "linkI": "",
+        "link": "",
+        "email":"jrange53@calstatela.edu"
+      },
+      {
+        "name": "Jordan Doose",
+        "img": "/images/members/jordan.jpg",
+        "title": "Power Distribution",
+	    	"text": "",
+		    "linkI": "",
+        "link": "https://www.linkedin.com/in/jordan-doose-381bb4161/",
+        "email":"jdoose@calstatela.edu"
+      },
+      {
+        "name": "Andrew Ye",
+        "img": "/images/members/andrewye.jpg",
+        "title": "Power Distribution",
+        "text": "",
+        "linkI": "",
+        "link": "",
+        "email":"aye7@calstatela.edu"
+      },
+      {
+        "name": "Jazmin Reyes",
+        "img": "/images/sponsors/mascot.png",
+        "title": "Frame & Hull",
+	    	"text": "",
+		    "linkI": "",
+        "link": "",
+        "email":"jreyes133@calstatela.edu"
+      },
+      {
+        "name": "Chayuth Mandtanavonsin",
+        "img": "/images/sponsors/mascot.png",
+        "title": "Frame & Hull",
+	    	"text": "",
+		    "linkI": "",
+        "link": "",
+        "email":"cmandta@calstatela.edu"
+      }
+    ],
+    "seniordesignCS": [
+    {
+      "name": "Carl Solli",
+      "img": "/images/members/Carl.jpg",
+      "title": "Software Leader",
+      "text": "Senior Cs Major and Team Lead for Senior Design",
+  "linkI": "",
+      "link": "https://www.linkedin.com/in/carl-christian-solli-237378171/",
+      "email":"carl_solli@hotmail.com"
+    },
+    {
+      "name": "Ashkan Aledavoud",
+      "img": "/images/members/Ashkan.jpg",
+      "title": "Mission Planning Leader",
+  "linkI": "",
+      "link": "",
+      "email":"aaledav@calstatela.edu"
+    },
+    {
+      "name": "Christian Castillo",
+      "img": "/images/members/Christian.jpg",
+      "title": "CV Leader & Sensors",
+  "linkI": "",
+      "link": "",
+      "email":"ccasti26@calstatela.edu"
+    },
+    {
+      "name": "Leslie Araujo",
+      "img": "/images/members/leslieAraujo.jpg",
+      "title": "Controls Leader & Sensors",
+  "linkI": "",
+      "link": "",
+      "email":"laraujo6@calstatela.edu"
+    },
+    {
+      "name": "Alan Chan",
+      "img": "/images/members/Alan.jpg",
+      "title": "Website Leader & Mission Planning",
+  "linkI": "",
+      "link": "",
+      "email":"achan116@calstatela.edu"
+    },
+    {
+      "name": "Bryan Sanchez",
+      "img": "/images/members/Bryan.jpg",
+      "title": "Computer Vision",
+  "linkI": "",
+      "link": "",
+      "email":"bsanc115@calstatela.edu"
+    },
+    {
+      "name": "Daniel Valadez",
+      "img": "/images/members/Daniel.jpg",
+      "title": "Computer Vision",
+      "text":"",
+  "linkI": "",
+      "link": "",
+      "email":"dvalade9@calstatela.edu"
+    },
+    {
+      "name": "Robin Romero",
+      "img": "/images/members/Robin.jpg",
+      "title": "Computer Vision",
+  "linkI": "",
+      "link": "",
+      "email":"romero.rbna@gmail.com"
+    },
+  {
+      "name": "Edwin Tran",
+      "img": "/images/members/EdwinTran.png",
+      "title": "Controls & Sensors",
+  "linkI": "",
+      "link": "",
+      "email":"etran28@calstatela.edu"
+    },
+  {
+      "name": "Jeanie Jeon",
+      "img": "/images/members/Jeanie.jpg",
+      "title": "Website",
+  "linkI": "",
+      "link": "",
+      "email":"jeaniejeon@gmail.com"
+    }
+  ],
+    "seniordesignME": [
+    {
+      "name": "Forrest Hale",
+      "img": "/images/sponsors/mascot.png",
+      "title": "Mechanical Engineer",
+  "linkI": "",
+      "link": "",
+      "email":"fhale@calstatela.edu"
+    },
+    {
+      "name": "Zachary Beatti",
+      "img": "/images/sponsors/mascot.png",
+      "title": "Mechanical Engineer",
+  "linkI": "",
+      "link": "",
+      "email":"zbeatti@calstatela.edu"
+    },
+    {
+      "name": "Damien Ramos",
+      "img": "/images/sponsors/mascot.png",
+      "title": "Mechanical Engineer",
+  "linkI": "",
+      "link": "",
+      "email":"dramos96@calstatela.edu"
+    }
+  ],
+    "seniordesignEE": [
+    {
+      "name": "Victor Sandoval",
+      "img": "/images/sponsors/mascot.png",
+      "title": "Electrical Engineer",
+  "linkI": "",
+      "link": "",
+      "email":"vsandov8@calstatela.edu"
+    },
+    {
+      "name": "Andrew Maravilla",
+      "img": "/images/sponsors/mascot.png",
+      "title": "Electrical Engineer",
+  "linkI": "",
+      "link": "",
+      "email":"amaravi7@calstatela.edu"
+    },
+    {
+      "name": "Edward Komperda",
+      "img": "/images/sponsors/mascot.png",
+      "title": "Electrical Engineer",
+  "linkI": "",
+      "link": "",
+      "email":"ekomper@calstatela.edu"
+    },
+    {
+      "name": "Emigdio Alaniz",
+      "img": "/images/sponsors/mascot.png",
+      "title": "Electrical Engineer",
+  "linkI": "",
+      "link": "",
+      "email":"ealaniz5@calstatela.edu"
+    }
+  ]
+  },
+
+  "2022-2023":{
+    "officers1": [
+      {
+        "name": "Aren Petrossian",
+        "sign": "\"Europa\"",
+        "img": "/images/members/aren.jpg",
+        "title": "President",
+        "text": "Mechanical Engineer Student with a 4.0 gpa",
+		    "linkI": "",
+        "link": "https://www.linkedin.com/in/aren-petrossian/",
+        "email":"arenpetrossian@ymail.com"
+      },
+      {
+        "name": "Katherine Bonomo",
+        "sign": "\"Flux\"",
+        "img": "/images/members/katherine.jpg",
+        "title": "Vice-President",
+        "text": "",
+		    "linkI": "",
+        "link": "https://www.linkedin.com/in/katherine-bonomo-737a63112/details/experience/",
+        "email":"kbonomo@calstatela.edu"
+      },
+      {
+        "name": "Victor Solis",
+        "sign": "\"Anvil\"",
+        "img": "/images/members/victorsolis.jpg",
+        "title": "Autonomy Lead",
+        "text": "",
+        "linkI": "",
+        "link": "https://www.linkedin.com/in/victor-solis/",
+        "email": "vsolis13@calstatela.edu"
+      },
+      {
+        "name": "Jordan Doose",
+        "sign": "\"The Wrench\"",
+        "img": "/images/members/jordan.jpg",
+        "title": "Controls Lead",
+        "text": "",
+        "linkI": "",
+        "link": "https://www.linkedin.com/in/jordan-doose-381bb4161/",
+        "email":"jdoose@calstatela.edu"
+      }
+    ],
+      "officers2" : [
+      {
+        "name": "Ashley Tran",
+        "sign": "\"Iris\"",
+        "img": "/images/members/ashley.jpg",
+        "title": "Computer Vision Lead",
+        "text": "",
+		    "linkI": "",
+        "link": "https://www.linkedin.com/in/ashley-t-1573401b8/",
+        "email":"atran135@calstatela.edu"
+      },
+      {
+        "name": "Paola Reyes",
+        "sign": "\"Latches\"",
+        "img": "/images/members/paola.jpg",
+        "title": "Frame & Hull Lead",
+        "text": "",
+        "linkI": "",
+        "link": "",
+        "email":"preyes29@calstatela.edu"
+      },
+      {
+        "name": "Andrew Ye",
+        "sign": "\"Beanstalk\"",
+        "img": "/images/members/andrewy.jpg",
+        "title": "Power Lead",
+	    	"text": "",
+		    "linkI": "",
+        "link": "",
+        "email":"aye7@calstatela.edu"
+      },
+      {
+        "name": "Jose Rangel",
+        "sign": "\"Ziptie\"",
+        "img": "/images/members/joseRangel.jpg",
+        "title": "Frame & Hull Lead",
+	    	"text": "",
+		    "linkI": "",
+        "link": "",
+        "email":"jrange53@calstatela.edu"
+      }
+    ],
+    "members1": [
+      {
+        "name":"Dylan Huang",
+        "img": "/images/members/dylan.jpg",
+        "title": "Computer Vision",
+	    	"text": "",
+		    "linkI": "",
+        "link": "",
+        "email":"Dylansken@gmail.com"
+      },
+      {
+        "name": "Gian Owen Asayas",
+        "img": "/images/members/gian.jpg",
+        "title": "Frame & Hull",
+	    	"text": "",
+		    "linkI": "",
+        "link": "https://www.linkedin.com/in/gian-owen-asayas-4378111a1/",
+        "email":"gasayas2@calstatela.edu"
+      },
+      {
+        "name": "Anthony Arias",
+        "img":  "/images/members/anthony.jpg",
+        "title": "Frame & Hull",
+        "text": "",
+        "linkI": "",
+        "link": "",
+        "email":"aarias70@calstatela.edu"
+      },
+      {
+        "name": "Arun N.Radhakrishnan",
+        "img": "/images/members/arun.jpg",
+        "title": "Controls / Electronics",
+	    	"text": "",
+		    "linkI": "",
+        "link": "https://in.linkedin.com/in/arun-n-r-58790256",
+        "email":"anareco@calstatela.edu"
+      },
+      {
+        "name":"Theresa Mai",
+        "img": "/images/members/theresa.jpg",
+        "title": "Electronics",
+	    	"text": "",
+		    "linkI": "",
+        "link": "",
+        "email":"tmai25@calstatela.edu"
+      }
+
+    ],
+    "members2":[
+      {
+        "name": "David Roberto Lopez",
+        "img":  "/images/members/david.jpg",
+        "title": "Controls",
+        "text": "",
+        "linkI": "",
+        "link": "",
+        "email":"dlopez145@calstatela.edu"
+      },
+
+      {
+        "name": "Eric Galstyan",
+        "img":  "/images/members/eric22.jpg",
+        "title": "Electronics",
+	    	"text": "",
+		    "linkI": "",
+        "link": "",
+        "email":"egalsty5@calstatela.edu"
+      },
+      {
+        "name": "Kevin Hong",
+        "img": "/images/members/kevinh.jpg",
+        "title": "Electronics / Frame & Hull",
+	    	"text": "",
+		    "linkI": "",
+        "link": "",
+        "email":"khong14@calstatela.edu"
+      },
+      {
+        "name": "Sebastian Luna",
+        "img":  "/images/members/sebastian.jpg",
+        "title": "Controls / Autonomy",
+        "text": "",
+        "linkI": "",
+        "link": "https://www.linkedin.com/in/sebastian-luna-1931321b6",
+        "email":"sebatianluna805@gmail.com"
+      }
+    ],
+    "seniordesignCS1": [
+      {
+        "name": "Victor Solis",
+        "img": "/images/members/victorsolis.jpg",
+        "title": "Software Stack",
+        "text": "",
+        "linkI": "",
+        "link": "https://www.linkedin.com/in/victor-solis/",
+        "email": "vsolis13@calstatela.edu"
+      },
+      {
+        "name":"Thomas Benson",
+        "img": "/images/members/thomas.jpg",
+        "title":"Navigation",
+        "text": "",
+		    "linkI": "",
+        "link": "https://github.com/MindEvo",
+        "email":"tbenson2@calstatela.edu"
+      },
+      {
+        "name": "Bailey Canham",
+        "img": "/images/members/bailey.jpg",
+        "title": "Computer Vision",
+		     "linkI": "",
+        "link": "https://www.linkedin.com/in/bailey-canham-772b26223/",
+        "email":"bcanham2@calstatela.edu"
+      },
+      {
+        "name": "Brandon Vy Cao",
+        "img": "/images/members/brandon.jpg",
+        "title": "Navigation",
+         "linkI": "",
+        "link": "https://www.linkedin.com/in/bailey-canham-772b26223/",
+        "email":"bcao6@calstatela.edu"
+      },
+      {
+        "name": "Hector Mora-Silva",
+        "img": "/images/members/hector.jpg",
+        "title": "Autonomy",
+        "linkI": "",
+        "link": "",
+        "email":"mora.hector247@gmail.com"
+      }
+    ],
+    "seniordesignCS2": [
+      {
+        "name": "David Fernandez",
+        "img": "/images/members/davidf.jpg",
+        "title": "Software Stack",
+         "linkI": "",
+        "link": "https://dnxv.github.io/Portfolio/",
+        "email":"dcamac36@calstatela.edu"
+      },
+      {
+        "name": "Milca Ucelo Paiz",
+        "img": "/images/members/milca.jpg",
+        "title": "Computer Vision",
+       "linkI": "",
+        "link": "",
+        "email":""
+      },
+      {
+        "name": "Roberto Hernandez",
+        "img": "/images/members/roberto.jpg",
+        "title": "Autonomy",
+       "linkI": "",
+        "link": "",
+        "email":""
+      },
+      {
+        "name": "Andrew Marin Heusser",
+        "img": "/images/members/andrewh.jpg",
+        "title": "Controls",
+      "linkI": "",
+        "link": "",
+        "email":"heusser.andrew@gmail.com"
+      },
+      {
+        "name": "Bart Rando",
+        "img": "/images/members/bart.jpeg",
+        "title": "Controls",
+         "linkI": "",
+        "link": "",
+        "email":"bcao6@calstatela.edu"
+      }
+    ],
+	    "seniordesignME1": [
+      {
+        "name": "Aren Petrossian",
+        "img": "/images/members/aren.jpg",
+        "title": "Intervehicle Communication",
+        "text": "Mechanical Engineer Student with a 4.0 gpa",
+		    "linkI": "",
+        "link": "https://www.linkedin.com/in/aren-petrossian/",
+        "email":"arenpetrossian@ymail.com"
+      },
+      {
+        "name": "Carlos Luna Orozco",
+        "img": "/images/members/carlos.jpg",
+        "title": "Hull",
+    "linkI": "",
+        "link": "",
+        "email":"cluna32@calstatela.edu"
+      },
+      {
+        "name": "Tianyu Ma",
+        "img": "/images/members/tianyu.jpg",
+        "title": "Frame",
+    "linkI": "",
+        "link": "",
+        "email":"tam5@calstatela.edu"
+      },
+      {
+        "name": "Nahom Seifu",
+        "img": "/images/members/nahom.jpg",
+        "title": "Simulation",
+		"linkI": "",
+        "link": "https://www.linkedin.com/in/seifu-nahom/",
+        "email":"seifunahom1@gmail.com"
+      }
+    ],
+    "seniordesignME2": [
+      {
+        "name": "Edward Razo",
+        "img": "/images/members/edward.jpg",
+        "title": "Claw",
+    "linkI": "",
+        "link": "",
+        "email":"Erazo6@calstatela.edu"
+      },
+      {
+        "name": "Steven Magana",
+        "img": "/images/members/steven.jpg",
+        "title": "Ball Dropper",
+        "linkI": "",
+        "link": "www.linkedin.com/in/steven-magana98",
+        "email":"smagan25@calstatela.edu"
+      },
+      {
+        "name": "Jose Lares",
+        "img": "/images/members/joseI.jpg",
+        "title": "Torpedo",
+    "linkI": "",
+        "link": "",
+        "email":"Jlares5@calstatela.edu"
+      }
+    ],
+	    "seniordesignEE": [
+      {
+        "name": "Cristin Mota",
+        "img": "/images/members/cristin.jpg",
+        "title": "Hydrophones",
+		"linkI": "",
+        "link": "",
+        "email":"Cmota11@calstatela.edu"
+      },
+      {
+        "name": "Anthony Zelada",
+        "img": "/images/members/anthonyz.jpg",
+        "title": "Power Distribution Board",
+    "linkI": "",
+        "link": "",
+        "email":"azelada2@calstatela.edu"
+      },
+      {
+        "name": "Edgar Brito",
+        "img": "/images/members/edgar.jpg",
+        "title": "Doppler Velocity Log",
+    "linkI": "",
+        "link": "",
+        "email":"ebrito4@calstatela.edu"
+      }
+    ]
+  }
+}
