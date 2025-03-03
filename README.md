@@ -1,4 +1,5 @@
 # Website for AUV/Robosub at Cal State LA
+
 This is the website for the AUV team at California State University, Los Angeles.
 The website is displays the work of both Club Members and Senior Design members.
 Additionally, it is used to showcase the different autonomous vehicles our team
@@ -15,23 +16,24 @@ information on working with React-Bootstrap.)
 You can view the website at https://robosubla.com.
 
 ## Getting started
+
 1. The website is using `npm` as its package manager, since we need to download
-   all the  packages that the websites is dependent on. You do this by running
+   all the packages that the websites is dependent on. You do this by running
    the following command in the project folder:
 
-    `npm install`
+   `npm install`
 
-    *If there are vulnerabilities:
+   \*If there are vulnerabilities:
 
-    `npm audit fix`
+   `npm audit fix`
 
 2. After all the packages are installed, we use:
 
-    `ng serve` (industry standard)
+   `ng serve` (industry standard)
 
-      or
+   or
 
-    `npm start`
+   `npm start`
 
    This will start the project through a local development server on the
    location: `http://localhost:3000`.
@@ -39,12 +41,18 @@ You can view the website at https://robosubla.com.
 3. To update or change the website, make a new branch from `master` and push
    and commit future changes to this branch.
 
-    To make a new branch use the command:
+   To make a new branch use the command:
 
-     `git checkout -b <Branch Name>`
+   `git checkout -b <Branch Name>`
 
-    The branch name should reflect the updates to be made on the website.
+   The branch name should reflect the updates to be made on the website.
 
 4. When you have made your changes on the new branch and wish to deploy them,
    create a pull request to merge it into the `master` branch. The `master`
    branch is what gets built and displayed on the actual website.
+
+## Common Issue Fix
+
+When adding new packages/dependencies to the project, you should always make sure you run this command.
+
+`npm install "package-name" --legacy-peer-deps`
