@@ -157,9 +157,7 @@ const TheFleet = () => {
       <Jumbotron fluid className="jumbotron-container mid">
         <div className="row">
           <div className="col-4-sm col-sm text">
-            <h1 className="jumbotron-h1">
-              ROBOSUB 2020-2021 (Online-Competition)
-            </h1>
+            <h1 className="jumbotron-h1">ROBOSUB 2020-2021</h1>
             <h2 className="jumbotron-h2">Rankings:</h2>
             <p className="jumbotron-p">Overall: ~ </p>
             <p className="jumbotron-p">Video: 22nd</p>
@@ -275,9 +273,7 @@ const TheFleet = () => {
           </div>
 
           <div className="col-4-sm col-sm text">
-            <h1 className="jumbotron-h1">
-              ROBOSUB 2019-2020 (Online-Competition)
-            </h1>
+            <h1 className="jumbotron-h1">ROBOSUB 2019-2020</h1>
             <h2 className="jumbotron-h2">Rankings:</h2>
             <p className="jumbotron-p">Overall: 11th </p>
             <p className="jumbotron-p">Video: 9th </p>

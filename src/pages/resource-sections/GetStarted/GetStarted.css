@@ -1,5 +1,5 @@
 /* Get Started */
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://75onts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 
 .resources-section-h1 {
   font-size: 7rem;
@@ -13,7 +13,7 @@
 }
 
 .sub-header {
-  font-size: 2.5rem !important;
+  font-size: 4.5rem !important;
   font-weight: bold;
   padding: 1rem 0;
 }
@@ -21,6 +21,12 @@
 .second-header {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.outline {
+  text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000,
+    3px 3px 0 #000, -3px 0 0 #000, 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000; /* Even thicker outline */
 }
 
 .second-sub-header {
@@ -46,11 +52,30 @@
   margin: 0 !important;
 }
 
-.resources-section-p,
-.getstarted-cap {
+.rowOneColFour,
+.rowOneColFive,
+.rowOneColSix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin-left: 3rem;
+}
+
+.resources-section-p {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  font-size: 1.2rem;
+  font-weight: normal;
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+}
+
+.getstarted-cap {
+  font-family: "Bebas Neue", sans-serif;
+  color: #fff;
+}
+
+.resources-section-h3 {
+  font-size: 4.5rem;
 }
 
 #figure-getstarted {
@@ -73,6 +98,18 @@
 
 .getstarted-card-p {
   color: white;
+  font-size: 21px;
+  font-weight: lighter;
+  font-family: "Raleway", sans-serif;
+}
+
+.button {
+  background-color: transparent !important;
+}
+
+.button:hover {
+  background-color: transparent !important;
+  text-decoration: none !important;
 }
 
 .btn-link {
@@ -83,53 +120,194 @@
   color: #ffcf00 !important;
 }
 
-.header {
+.header-one {
   border-top-style: solid;
   border-bottom-style: solid;
   border-color: #ffcf00;
   border-width: 7px;
+  width: 100%;
 }
 
 .holder {
   padding: 0 !important;
+  background-color: #000;
+}
+
+.header-background {
+  display: flex;
+  background-color: #000;
+  height: 70vh;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+  width: 100%;
+}
+
+.second-header {
+  align-items: center;
+  align-content: center;
 }
 
 .header-one,
 .header-two,
-.header-three {
+.header-three,
+.header-four {
   background-color: #000;
   color: #ffff;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+  width: 100%;
+}
+
+.accordian-holder {
+  background-color: #000;
+  color: #ffff;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+  width: 100%;
 }
 
 .header-one {
-  padding: 2rem 1rem;
+  padding: 0 2rem;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
 }
 
 .header-two {
-  padding: 2rem 1rem;
+  padding: 2rem 2rem;
+  align-items: center;
+  align-content: center;
+  height: 110vh;
+}
+
+.accordian-holder {
+  padding: 0 2rem;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  background-color: #fff;
 }
 
 .header-three {
-  padding: 2rem 1rem;
+  padding: 0 2rem;
+  align-items: center;
+  align-content: center;
+  height: 110vh;
 }
 
 .header-four {
-  padding: 2rem 1rem;
+  padding: 0 2rem;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  background-color: black;
+  color: white;
 }
 
 .text-one {
   color: #ffff;
 }
 
+.card-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-body {
+  width: auto;
+}
+
+.header-background {
+  position: relative;
+  overflow: hidden;
+}
+
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .resources-section-h1,
-  .second-sub-header,
   .third-sub-header {
     font-size: 4.5rem !important;
+  }
+
+  .second-sub-header {
+    font-size: 3rem !important;
   }
 
   .second-header {
     padding: 1rem 0;
   }
+
+  .header-one {
+    padding: 2rem 2rem;
+    align-items: center;
+    align-content: center;
+    height: auto;
+  }
+
+  .header-two {
+    padding: 0 !important;
+    align-items: center;
+    align-content: center;
+    height: auto;
+  }
+
+  .accordian-holder {
+    padding: 0 !important;
+    align-items: center;
+    align-content: center;
+    height: 160vh !important;
+  }
+
+  .header-three {
+    padding: 0 !important;
+    align-items: center;
+    align-content: center;
+    height: 110vh !important;
+  }
+
+  .header-four {
+    padding: 2rem 2rem;
+    align-items: center;
+    align-content: center;
+    height: 150vh !important;
+  }
+
+  .getstarted-a {
+    padding-bottom: 2rem;
+  }
+
+  .resources-section-p {
+    font-size: 1rem !important;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .accordion-row-holder {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1440px;
+  }
+}
+
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }

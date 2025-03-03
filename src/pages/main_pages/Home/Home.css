@@ -7,22 +7,51 @@
   padding-top: 2px;
 }
 
+.csula-logo {
+  height: 500px;
+  width: auto; /* Maintain aspect ratio */
+  image-rendering: -webkit-optimize-contrast; /* For Webkit (Chrome, Safari) */
+  image-rendering: crisp-edges; /* For Firefox */
+  image-rendering: pixelated; /* For other browsers */
+}
+
+.robosubla-logo {
+  height: 500px;
+  width: auto; /* Maintain aspect ratio */
+  image-rendering: -webkit-optimize-contrast; /* For Webkit (Chrome, Safari) */
+  image-rendering: crisp-edges; /* For Firefox */
+  image-rendering: pixelated; /* For other browsers */
+}
+
+.about-p {
+  font-weight: normal;
+}
+
 .title {
   font-weight: bold;
   letter-spacing: 1dvh;
 }
 
+.top-section,
+.middle-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* height: 100vh; Adjust the height as needed */
+}
+
 .about-header {
-  margin-top: 20px;
+  margin-top: 3rem;
   margin-bottom: 12px;
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 3px;
-  font-size: 3.5rem;
+  font-size: 5.5rem;
 }
 
 .about-p {
   font-family: "Raleway", sans-serif;
-  font-size: 22px;
+  font-size: 25px;
 }
 
 .home-sponsor-container {
@@ -35,6 +64,14 @@
 .sponsor {
   margin-left: 10px;
   margin-right: 15px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensure the container takes the full height of the column */
+  margin: 0;
 }
 
 /* iPhone X, iPhone 6/7/8 Plus, */
@@ -71,11 +108,38 @@
   }
 }
 
+@media (max-width: 767px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .col {
+    width: 100%;
+    padding: 0 !important;
+  }
+
+  .rowOneColOne,
+  .rowOneColTwo,
+  .rowOneColThree,
+  .rowTwoColOne,
+  .rowTwoColTwo {
+    margin-left: 0 !important;
+    height: auto;
+  }
+
+  .VECTOR_NAV {
+    width: 25rem;
+  }
+}
+
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .about-p {
     font-family: "Raleway", sans-serif;
-    font-size: 14px;
+    font-size: 1rem;
+    padding: 0 1rem;
   }
 
   .home-sponsor-container {
@@ -98,6 +162,23 @@
     align-items: center;
     justify-content: center;
   }
+
+  .col {
+    padding: 0 !important;
+  }
+  .csula-logo {
+    height: 300px;
+  }
+  .robosubla-logo {
+    height: 300px;
+  }
+
+  .image-container {
+    padding-bottom: 3rem;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 800px) and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 /* ----------- Galaxy S3 ----------- */

@@ -1,10 +1,5 @@
 import React from "react";
-import Sky from "react-sky";
 import "./Events.css";
-import Jumbotron from "react-bootstrap/Jumbotron";
-import Container from "react-bootstrap/Container";
-import Image from "react-bootstrap/Image";
-import Typical from "react-typical";
 
 const Events = () => {
   return (
@@ -15,8 +10,13 @@ const Events = () => {
       <div className="content" align="center">
         <div className="centerCalendar">
           <iframe
-            title="Calander"
+            title="Calendar"
             src="https://calendar.google.com/calendar/embed?src=auvcalstatela%40gmail.com&ctz=America%2FLos_Angeles"
+            style={{ border: 0 }}
+            width="800"
+            height="600"
+            frameBorder="0"
+            scrolling="no"
           ></iframe>
         </div>
       </div>

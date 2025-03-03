@@ -1,0 +1,123 @@
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.top-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.linux-p {
+  font-size: 1.7rem;
+  padding: 2rem;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  background-color: black;
+  margin: 0;
+}
+
+.header-top {
+  font-size: 7rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.linux-h1 {
+  font-size: 5rem;
+  padding: 3rem 1rem;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.section {
+  width: 100%;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+}
+
+.section-one,
+.section-three {
+  background-color: black;
+  color: #fff;
+}
+
+.section-two {
+  background-color: #000;
+  color: #fff;
+}
+
+.header-container {
+  width: 100%;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+  background-color: #000;
+  display: flex;
+}
+
+.header-top {
+  font-size: 7rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: "Bebas Neue", sans-serif;
+  height: 83vh;
+  align-items: center;
+  align-content: center;
+}
+
+.header-top {
+  background-color: #000;
+  color: #fff;
+}
+
+.inner-top {
+  color: dodgerblue;
+  letter-spacing: 0.2rem;
+}
+
+/* Responsive iframe container */
+.iframe-align {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Media query for screen width 1440px */
+@media screen and (min-width: 1440px) {
+  .responsive-iframe {
+    /* width: 989px; */
+    /* height: 500px; Adjust height as needed to maintain aspect ratio */
+    max-width: 100%;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .header-top,
+  .linux-h1 {
+    font-size: 3.5rem !important;
+  }
+
+  .linux-p {
+    font-size: 1.2rem;
+  }
+}

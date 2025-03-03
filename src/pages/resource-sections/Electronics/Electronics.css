@@ -1,0 +1,148 @@
+.electronics-container {
+  /* padding: 2rem; */
+}
+
+.electronics-section {
+  background-color: #000;
+  color: #fff;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  height: 86vh;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.resources-section-h1 {
+  font-size: 7.5rem;
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.resources-section-p {
+  font-size: 1.25rem;
+  padding: 0rem 2rem 2rem 2rem;
+}
+
+.card-content-section {
+  background-color: #000;
+  padding: 2rem;
+}
+
+.electronics-card {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.buck-converter-image {
+  width: 100%;
+  height: auto;
+}
+
+.electronics-section {
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+}
+
+.tutorial-section {
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  border-top-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+}
+
+.resource-section {
+  width: 100%;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+  color: #fff;
+  background-color: #000;
+}
+
+.resources-section-h2 {
+  font-size: 4.5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.electronics-video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio  56.25% */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-title {
+  font-size: 2.25rem;
+}
+
+.card-text {
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+}
+
+/* Ensure the column and card take full height */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+}
+
+.electronics-card {
+  flex: 1;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .resources-section-h1 {
+    font-size: 2.5rem !important;
+  }
+
+  .resources-section-h2 {
+    font-size: 2rem !important;
+  }
+
+  .card-content-section {
+    padding: 0 !important;
+  }
+
+  .electronics-card-col {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+}

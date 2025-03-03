@@ -18,7 +18,6 @@
 
 .sponsor-container {
   position: relative;
-
   background-color: #269;
   background-image: linear-gradient(
       rgba(37, 100, 168, 0.5) 2px,
@@ -31,21 +30,19 @@
 }
 
 .spons-container {
-  background-color: #f0f8ffbb;
-  border-radius: 2em;
-  padding: 10px;
-  margin: 20px;
+  background-color: #fff;
   font-size: 1rem;
 }
 
 .spons-heading {
   text-align: center;
   color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   padding-right: 1rem;
   padding-left: 1rem;
   padding-bottom: 2rem;
   padding-top: 2rem;
+  font-size: 2.5rem;
 }
 
 .sponsor {
@@ -55,31 +52,53 @@
   height: auto;
 }
 
+.gold-sponsors,
+.silver-sponsors,
+.bronze-sponsors {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+}
+
+.desc-container {
+  background-color: #000;
+  width: 100%;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+}
+
 .spons-desc {
   text-align: center;
-  background-color: #f0f8ffaa;
-  font-size: 1.5rem;
+  color: #fff;
+  font-size: 2rem;
   font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  padding: 2rem;
+  height: 60vh;
+  align-content: center;
 }
 
 .spons-img {
   text-align: center;
   margin: auto;
-
   padding: 10px;
 }
 
 .subtitle {
   padding-left: 2rem;
-  font-size: 3rem;
+  font-size: 7.5rem;
   color: #fff;
   margin: 0;
+  text-align: center;
 }
 
 .spons-subtitle {
+  color: #000;
   text-align: center;
-  margin-top: 2em;
-  font-size: 2rem;
+  font-size: 4.5rem;
+  margin-top: 2rem;
 }
 
 .pdf-container {
@@ -101,11 +120,10 @@
   border-width: 7px;
 }
 
-/* .pdf {
-  margin-left: 100px;
-  margin-right: 150px;
-  padding-top: 30px;
-} */
+.pdf {
+  width: 100%;
+  height: 100vh;
+}
 
 * {
   font-family: "Bebas Neue", sans-serif;
@@ -136,8 +154,16 @@
     width: 70%;
   }
 
+  .subtitle {
+    font-size: 4rem !important;
+  }
+
+  .spons-subtitle {
+    font-size: 3rem;
+  }
+
   .spons-desc {
-    font-size: 1.5rem;
+    font-size: 1.4rem !important;
     font-family: "Raleway", sans-serif;
     padding: 2rem;
   }
@@ -157,5 +183,89 @@
     width: 100%;
     height: auto;
     min-width: auto !important;
+  }
+
+  .sponsor {
+    align-items: center;
+    align-content: center;
+  }
+
+  .pdf {
+    border: none;
+  }
+}
+
+/* Additional CSS for responsiveness */
+
+.spons-subtitle {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.spons-img .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.spons-img .col-sm-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .spons-img .col-sm-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pdf {
+    width: 100%;
+    height: 100vh;
+    border: none;
+  }
+
+  .spons-desc {
+    height: auto;
+  }
+}
+
+/* Media query for iPhone 8 Plus, iPhone 8, iPhone SE */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .pdf-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 2.5rem;
+  }
+
+  .spons-desc {
+    font-size: 1rem;
+    height: 61vh;
+    align-items: center;
+    align-content: center;
+  }
+
+  .spons-heading {
+    font-size: 1.5rem;
+  }
+
+  .pdf {
+    width: 100%;
+    height: 100vh;
+    overflow: auto !important;
+  }
+
+  .col-sm-4 {
+    margin-left: 2.7rem;
   }
 }

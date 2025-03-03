@@ -1,10 +1,5 @@
 import React from "react";
-// import Card from "react-bootstrap/Card";
-//import CardDeck from "react-bootstrap/CardDeck";
-//import Button from "react-bootstrap/Button";
-//import Jumbotron from "react-bootstrap/Jumbotron";
 import Image from "react-bootstrap/Image";
-//import { Link } from "react-router-dom";
 import "./Sponsors.css";
 
 const Sponsors = () => {
@@ -13,17 +8,17 @@ const Sponsors = () => {
       <div className="subtitle-container">
         <h3 className="subtitle">Sponsors</h3>
       </div>
-      {/* <Jumbotron className = "sponsor-container"> */}
-      <div className="spons-container">
+      <div className="desc-container">
         <p className="spons-desc">
           RoboSubLA extends our greatest thanks to our sponsors! Your support
           enables us to continue building autonomous underwater vehicles, and
           helps provide our members with technical skills through hands-on
           experiences with industry-standard components.
         </p>
-
-        <h3 className="spons-subtitle">Gold Sponsors</h3>
-        <div className="spons-img">
+      </div>
+      <section className="spons-container">
+        <section className="gold-sponsors">
+          <h3 className="spons-subtitle">Gold Sponsors</h3>
           <div className="row">
             <div className="col-sm-4">
               <Image
@@ -32,10 +27,6 @@ const Sponsors = () => {
                 src={process.env.PUBLIC_URL + "/images/sponsors/csula.png"}
               ></Image>
             </div>
-          </div>
-
-          <div className="row">
-            {" "}
             <div className="col-sm-4">
               <Image
                 className="sponsor"
@@ -43,9 +34,6 @@ const Sponsors = () => {
                 src={process.env.PUBLIC_URL + "/images/sponsors/naval.png"}
               ></Image>
             </div>
-          </div>
-          <div className="row">
-            {" "}
             <div className="col-sm-4">
               <Image
                 className="sponsor"
@@ -54,10 +42,10 @@ const Sponsors = () => {
               ></Image>
             </div>
           </div>
-        </div>
+        </section>
 
-        <h3 className="spons-subtitle">Silver Sponsors</h3>
-        <div className="spons-img">
+        <section className="sliver-sponsors">
+          <h3 className="spons-subtitle">Silver Sponsors</h3>
           <div className="row">
             <div className="col-sm-4">
               <Image
@@ -66,8 +54,6 @@ const Sponsors = () => {
                 src={process.env.PUBLIC_URL + "/images/sponsors/bluetrail.png"}
               ></Image>
             </div>
-          </div>
-          <div className="row">
             <div className="col-sm-4">
               <Image
                 className="sponsor"
@@ -78,11 +64,9 @@ const Sponsors = () => {
               ></Image>
             </div>
           </div>
-        </div>
-
-        <h3 className="spons-subtitle">Bronze Sponsors</h3>
-
-        <div className="spons-img">
+        </section>
+        <section className="bronze-sponsors">
+          <h3 className="spons-subtitle">Bronze Sponsors</h3>
           <div className="row">
             <div className="col-sm-4">
               <Image
@@ -91,8 +75,6 @@ const Sponsors = () => {
                 src={process.env.PUBLIC_URL + "/images/sponsors/mworks.png"}
               ></Image>
             </div>
-          </div>
-          <div className="row">
             <div className="col-sm-4">
               <Image
                 className="sponsor"
@@ -101,24 +83,24 @@ const Sponsors = () => {
               ></Image>
             </div>
           </div>
-        </div>
-      </div>{" "}
-      {/* SPONSOR CONTAINER */}
-      {/* </Jumbotron> */}
+        </section>
+      </section>
+
       <div className="pdf-container">
         <h1 className="spons-heading">
           Ready to sponsor RoboSubLA? Read our benefits packet!
         </h1>
-        <object
-          class="pdf"
+        <iframe
+          className="pdf"
           width="500px"
           height="675px"
-          data="https://drive.google.com/file/d/1PsGdtf7-BZoSfNbwImO0Ay_P16BJabqs/preview"
+          src="https://drive.google.com/file/d/1PsGdtf7-BZoSfNbwImO0Ay_P16BJabqs/preview?pli=1"
           type="application/pdf"
           aria-label="pdf"
-        ></object>
+          title="RoboSubLA Sponsorship Benefits Packet"
+        ></iframe>
       </div>
-    </div> // MAIN DIV
+    </div>
   );
 };
 

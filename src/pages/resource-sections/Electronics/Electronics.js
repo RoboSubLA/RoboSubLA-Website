@@ -1,74 +1,77 @@
 import React from "react";
-import "../Linux/Linux.css";
-import {
-  Jumbotron,
-  Col,
-  Row,
-  Container,
-  Card,
-  Button,
-  Image,
-  ListGroup,
-} from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
+import "./Electronics.css";
 
 const Electronics = () => {
   return (
-    <Jumbotron className="linux-jumbo">
-      <Container className="linux-container">
-        <p className="linux-h3">
-          {" "}
-          The Electronics/Power team is in charge of converting the internal
-          currents from the battery to all the other electronic parts in the
-          robot!{" "}
+    <Container className="electronics-container">
+      <section className="electronics-section">
+        <h1 className="resources-section-h1">Electronics/Power Team</h1>
+        <p className="resources-section-p">
+          The <span className="inner-top">Electronics/Power</span> team is in
+          charge of converting the internal currents from the battery to all the
+          other electronic parts in the robot!
         </p>
+      </section>
 
-        <p className="linux-p">
-          As the electrical team, we are in charge of{" "}
-          <u>creating the schematic that allows buck converters to function.</u>{" "}
-          Our main programs include KiCAD and EagleCAD. This year we switched
-          over to <b>KiCAD</b>, which functions as a simpler program for our
-          members to design and create schematics for our club.
+      <section className="card-content-section">
+        <Row>
+          <Col md={6} className="electronics-card-col">
+            <Card className="electronics-card">
+              <Card.Body className="electronics-card-body">
+                <Card.Title className="card-title">Buck Converter</Card.Title>
+                <Card.Text>
+                  Buck Converters, usually labeled as DC/DC Buck Converters, are
+                  converters that efficiently convert high voltage into low
+                  voltages to extend battery life and reduce heat. This allows
+                  many smaller appliances to be used in everyday applications.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={6} className="electronics-card-col">
+            <Card className="electronics-card">
+              <Card.Body>
+                <Card.Title className="card-title">
+                  Buck Converter Schematic Example
+                </Card.Title>
+                <Card.Text>
+                  <img
+                    className="buck-converter-image"
+                    src="/images/other/buck_converter.png"
+                    alt="Buck Converter Schematic"
+                  />
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </section>
+
+      <section className="tutorial-section">
+        <h2 className="resources-section-h2">Buck Converter Tutorial</h2>
+        <div className="electronics-video-container">
+          <iframe
+            width="100%"
+            height="500"
+            src="https://www.youtube.com/embed/ecRQcEWoXvM"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </section>
+
+      {/* <section className="resource-section">
+        <h2 className="resources-section-h2">Why?</h2>
+        <p className="resources-section-p">
+          We chose this tutorial for its clear explanation of buck converter
+          schematics. It covers basic requirements and specifics, helping
+          members learn about voltage outputs and performance differences.
         </p>
-
-        <ListGroup className="linux-listgroup">
-          <ListGroup.Item className="linux-list-item">
-            <span className="accent-color-linux">Buck Converter</span> – usually
-            labeled as DC/DC Buck Converters, are converters that are able to
-            efficiently let high voltage convert into low voltages in order to
-            extend battery life and reduce heat. In turn, this has allowed many
-            smaller appliances to spring into everyday use.
-          </ListGroup.Item>
-          <ListGroup.Item className="linux-list-item">
-            <span className="accent-color-linux">
-              Buck Converter Schematic Example
-            </span>{" "}
-            – <Image className="buck" src="/images/other/buck_converter.png" />
-          </ListGroup.Item>
-        </ListGroup>
-
-        <p className="linux-h1"> </p>
-
-        <Col>
-          <Jumbotron className="linux-methods-jumbo">
-            <p className="linux-h3"> Buck Converter Tutorial </p>
-            <p className="iframe-align">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/ecRQcEWoXvM"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </p>
-            <p className="linux-p">
-            We chose this tutorial to follow as it provided a thorough and easy explanation between what to choose and pin for a buck converter schematic. The tutorial goes over basic requirements that all schematics must have and then dives into the specifics for this example buck converter schematic. By following this video, members are able to learn the difference between voltage outputs when making a buck converter and the performance output that the different voltages give.
-            </p>
-          </Jumbotron>
-        </Col>
-      </Container>
-    </Jumbotron>
+      </section> */}
+    </Container>
   );
 };
 

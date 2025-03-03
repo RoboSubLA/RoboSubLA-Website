@@ -27,10 +27,10 @@ const About = () => {
                 skills while connecting with like-minded peers.
               </p>
             </div>
-            <div class="col col-6-md">
+            <div class="col col-lg">
               <div className="image-container">
                 <Image
-                  className="logo"
+                  className="csula-logo"
                   height="200"
                   alt="CSULA Logo"
                   src={process.env.PUBLIC_URL + "/images/sponsors/csula.png"}
@@ -43,16 +43,17 @@ const About = () => {
       <div className="middle-section">
         <div class="container">
           <div class="row">
-            <div class="col col-6-md">
+            <div class="col col-lg">
               <div className="image-container">
-                {/* <Image
-                  className="logo"
+                <Image
+                  className="robosubla-logo"
                   height="200"
-                  alt="CSULA Logo"
+                  alt="RoboSub LA Logo"
                   src={
-                    process.env.PUBLIC_URL + "/images/other/club_banner.webp"
+                    process.env.PUBLIC_URL +
+                    "/images/other/RobosubLA_Mascot_Logo.png"
                   }
-                ></Image> */}
+                ></Image>
               </div>
             </div>
             <div class="col col-6-md">
@@ -67,95 +68,10 @@ const About = () => {
                 Check the progress tab for current projects and tasks available
                 to new members.
               </p>
-              {/* <p className="about-p">
-            Our team is split up into two project teams, the student
-            organization and the senior design team. The senior design team
-            builds one vehicle, and the club members build a separate vehicle
-            while being mentored by senior design members. Both vehicles are
-            intended for use in the competition and strategies will be carefully
-            considered based on the capabilities of both vehicles. Members have
-            the opportunity to design advanced robotics systems and work on an
-            interdisciplinary project to gain experience working with a team.
-            Please see the progress tab for a better idea of what our members
-            are working on and what tasks and projects are available to new
-            members
-          </p> */}
             </div>
           </div>
         </div>
       </div>
-
-      {/* <div className="bottom-section">
-        <div className="home-sponsor-container">
-          <h1 className="about-header">Thanks to Our Sponsors!</h1>
-          <div className="row first-row">
-            <div className="col-sm-4 rowOneColOne">
-              {" "}
-              <Image
-                className="CSULA"
-                height="150"
-                src={process.env.PUBLIC_URL + "/images/sponsors/csula.png"}
-              ></Image>
-            </div>
-            <div className="col-sm-4 rowOneColTwo">
-              <Image
-                className="ONR"
-                height="150"
-                src={process.env.PUBLIC_URL + "/images/sponsors/naval.png"}
-              ></Image>
-            </div>
-            <div className="col-sm-4 rowOneColThree">
-              {" "}
-              <Image
-                className="VECTOR_NAV"
-                width="500"
-                src={process.env.PUBLIC_URL + "/images/sponsors/vectornav.png"}
-              ></Image>
-            </div>
-          </div>
-
-          <div className="row second-row">
-            <div className="col-sm-6 rowTwoColOne">
-              {" "}
-              <Image
-                className="BLUETRAIL"
-                width="330"
-                src={process.env.PUBLIC_URL + "/images/sponsors/bluetrail.png"}
-              ></Image>
-            </div>
-            <div className="col-sm-6 rowTwoColTwo">
-              {" "}
-              <Image
-                className="BLUE_ROBOTICS"
-                width="330"
-                src={
-                  process.env.PUBLIC_URL + "/images/sponsors/bluerobotics.png"
-                }
-              ></Image>
-            </div>{" "}
-          </div>
-
-          <div className=" row third-row">
-            <div className="col-sm-6 rowTwoColOne">
-              {" "}
-              <Image
-                className="MWORKS"
-                width="240"
-                src={process.env.PUBLIC_URL + "/images/sponsors/mworks.png"}
-              ></Image>{" "}
-            </div>
-
-            <div className="col-sm-6 rowTwoColOne">
-              {" "}
-              <Image
-                className="DSYS"
-                width="225"
-                src={process.env.PUBLIC_URL + "/images/sponsors/dsys.svg"}
-              ></Image>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };

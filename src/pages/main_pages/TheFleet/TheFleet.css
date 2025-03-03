@@ -1,3 +1,7 @@
+* {
+  text-shadow: none;
+}
+
 .fleet-container {
   background-color: #269;
   background-image: linear-gradient(
@@ -34,6 +38,8 @@
 
 .jumbotron-h1 {
   text-decoration: underline;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .fleet-carddeck {
@@ -56,12 +62,12 @@
   outline: none;
   border: none;
   color: #fff;
-  background-color: #dc3545;
+  background-color: #ffcf00;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .fleet-link:hover {
-  color: #ffffff;
-  background-color: #a00a19;
+  background-color: #000;
   text-decoration: none;
 }
 
@@ -76,8 +82,14 @@
   font-size: 18px;
 }
 
+.fleet-card.card.border-dark {
+  border-width: 5px;
+  border-color: #000 !important;
+}
+
 .button-container {
   flex-direction: column;
+  padding-bottom: 2rem;
 }
 .jumbotron-button {
   color: #000;
@@ -93,7 +105,7 @@
   background-color: #fff;
 }
 .jumbotron-button:hover {
-  color: #fff;
+  color: #fff !important;
   background-color: #ffcf00;
 }
 

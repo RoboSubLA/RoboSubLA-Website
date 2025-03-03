@@ -4,7 +4,7 @@ import Typical from "react-typical";
 
 const VideoSection = ({ src, heading, children }) => {
   return (
-    <div className="video-container">
+    <div className="main-video-container">
       {/* <video muted playsInline loop autoPlay>
         <source src="public\videos\bubbles.mp4" type="video/mp4"></source>
       </video> */}

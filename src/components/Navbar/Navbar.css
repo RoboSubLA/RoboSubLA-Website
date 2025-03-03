@@ -11,6 +11,13 @@
   z-index: 999;
 }
 
+.page {
+  text-decoration: none;
+}
+
+.page:hover {
+text-decoration: none;}
+
 .navbar-container {
   display: flex;
   justify-content: center;
@@ -77,14 +84,14 @@ ul li {
 }
 
 a:hover {
-  color: #ffcf00;
+  color: #ffcf00 !important;
   text-decoration: none;
 }
 
-a:active {
+/* a:active {
   color: #ffcf00;
   text-decoration: none;
-}
+} */
 
 .fa-bars {
   color: #fff;
@@ -103,6 +110,12 @@ a:active {
   background: #ffcf00;
   color: #fff;
 }
+
+.sign-up-button {
+  background-color: #fff !important;
+}
+
+
 
 @media screen and (max-width: 970px) {
   .NavbarItems {
@@ -209,3 +222,31 @@ button,
     height: auto;
     width: 100%;
   } */
+
+  @media screen and (max-width: 970px) {
+    .nav-links:hover {
+        /* text-decoration: none; */
+        background-color: transparent !important;
+        color: #242424;
+        border-radius: 0;
+        border-bottom: none;
+    }
+
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 80px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5sease;
+  }
+}
+
+
+
+
+
+

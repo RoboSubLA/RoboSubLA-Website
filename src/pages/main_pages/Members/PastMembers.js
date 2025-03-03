@@ -9,7 +9,7 @@ import Button from "../../../components/Button/Button";
 const PastMembers = () => {
   let obj = require("../../../assets/members.json");
   let json = obj[Object.keys(obj)[0]];
-  let updated = obj["2022-2023"];
+//   let updated = obj["2022-2023"];
   let lastyear = obj["2021-2022"];
   return (
     <Accordion className="accordion-past">
