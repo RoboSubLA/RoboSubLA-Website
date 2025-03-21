@@ -1,85 +1,187 @@
 /* Github & Git */
-.git{
-    text-align: center;
-    background-color: #718093
 
+.banner-container {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+  background-color: #000;
+  min-height: 87vh;
+}
+
+.text-container {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+  background-color: #000;
+  color: #fff;
+  min-height: 87vh;
+  align-items: center;
+  align-content: center;
+}
+
+.git-container {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+  background-color: #000;
+}
+
+.github-p {
+  font-size: 1.7rem;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-weight: normal !important;
+  padding: 0 2rem;
+}
+
+.github-resources-section-p {
+  font-size: 1.7rem;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-weight: normal !important;
+}
+
+.git {
+  text-align: center;
+  background-color: #718093;
 }
 
 .github-logo {
-    width: 80%;
-    padding-bottom: 20px;
+  width: 80%;
 }
 
-.ros-logo{
+.install-git {
+  padding-top: 2rem;
+  color: #fff;
+}
+
+.install-github {
+  color: #fff;
+}
+
+.ros-logo {
   width: 70%;
   padding-top: 80px;
   padding-left: 30%;
-      padding-bottom: 80px;
+  padding-bottom: 80px;
   content: center;
 }
 
 .git-links-row {
-    justify-content: center;
-    padding-top:15px;
-    padding-bottom:15px;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .git-links {
-    color: rgb(1, 153, 255);
-    padding-left: 15px;
-    padding-right: 15px;
+  color: rgb(1, 153, 255);
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .git-links:hover {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
-.git-card{
-    background-color: rgb(53, 52, 60);
-    border-radius: 20px;
-    margin: 10px;
-    font-family: 'Source Code Pro', monospace;
+.git-card {
+  background-color: rgb(53, 52, 60);
+  border-radius: 20px;
+  margin: 10px;
+  font-family: "Source Code Pro", monospace;
 }
 
 .git-card-title {
-    color: rgb(32, 127, 250);
-    font-family: 'Source Code Pro', monospace;
+  color: rgb(32, 127, 250);
+  font-family: "Source Code Pro", monospace;
 }
 
 .git-card-text {
-    color: white;
-    font-family: 'Source Code Pro', monospace;
-}
-
-.git-cheat-p {
-    color: white;
-    font-family: 'Source Code Pro', monospace;
-    font-weight: 400;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold !important;
+  font-size: 1rem !important;
 }
 
 .git-cheat-h4 {
-    color: white;
-    font-family: 'Source Code Pro', monospace;
-    font-weight: bold;
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
 }
 
 .git-code {
-    font-family: 'Source Code Pro', monospace;
-    background: #b1aeaead;
-    border: 1px solid #ddd;
-    border-left: 7px solid #01f301;
-    color: rgb(18, 247, 10);
-    page-break-inside: avoid;
-    font-size: 15px;
-    line-height: 1.6;
-    margin-bottom: 1.6em;
-    font-weight: bold;
-    max-width: 100%;
-    overflow: auto;
-    padding: 1em 1.5em;
-    display: block;
-    word-wrap: break-word;
+  font-family: "Source Code Pro", monospace;
+  background: #b1aeaead;
+  border: 1px solid #ddd;
+  border-left: 7px solid #ffcf00;
+  color: dodgerblue;
+  page-break-inside: avoid;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  font-weight: bold;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
 }
 
 .git-cheat-code-row {
-    justify-content: center;
+  justify-content: center;
+}
+
+/* Container for the cards */
+.git-card-container {
+  display: flex;
+  flex-direction: column; /* Stack cards vertically */
+  gap: 1.5rem; /* Add spacing between cards */
+  margin-top: 2rem;
+}
+
+/* Individual card styling */
+.git-card {
+  width: 70%; /* Make cards take full width */
+  background-color: rgb(80, 79, 79);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.git-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Card body styling */
+.git-card-body {
+  padding: 1.5rem;
+}
+
+/* Card title styling */
+.git-card-title {
+  font-size: 3.5rem !important;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/* Code block styling */
+.git-code {
+  display: block;
+  background-color: #e9ecef;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0.5rem 0;
+}
+
+/* Paragraph styling inside cards */
+.git-cheat-p {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-family: "Raleway", sans-serif;
 }

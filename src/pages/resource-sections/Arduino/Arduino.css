@@ -1,10 +1,20 @@
-.header {
+.arduino-header {
   text-align: center;
   height: 70vh;
   align-items: center;
   align-content: center;
   text-align: center;
-  height: 86vh;
+  height: 87vh;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+  background-color: #000;
+  color: #fff;
+}
+
+.arduino-container {
+  background-color: #000;
 }
 
 .resources-section-h1 {
@@ -29,10 +39,12 @@
 .content-title {
   font-size: 2rem;
   margin-bottom: 1rem;
+  color: #fff;
 }
 
 .content-text {
   font-size: 1.25rem;
+  color: #fff;
 }
 
 .links-container {

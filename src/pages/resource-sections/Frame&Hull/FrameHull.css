@@ -8,6 +8,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  flex-direction: column; /* Ensures content stacks vertically */
+  min-height: 100vh; /* Makes the container take full viewport height */
+  text-align: center; /* Centers text inside */
+  background-color: #000;
 }
 
 .linux-p {

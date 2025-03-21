@@ -177,8 +177,25 @@
     padding-bottom: 3rem;
   }
 }
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-width: 414px) and (min-device-height: 896px) and (max-device-height: 896px) and (-webkit-min-device-pixel-ratio: 2) {
+  .middle-section {
+    height: 100vh;
+  }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 800px) and (-webkit-min-device-pixel-ratio: 2) {
+  .main-video-container {
+    height: 90vh;
+  }
+}
+
+@media only screen and (min-device-width: 390px) and (max-device-width: 390px) and (min-device-height: 844px) and (max-device-height: 844px) and (-webkit-min-device-pixel-ratio: 3) {
+  .main-video-container {
+    height: 90vh;
+  }
+
+  .middle-section {
+    height: 100vh;
+  }
 }
 
 /* ----------- Galaxy S3 ----------- */

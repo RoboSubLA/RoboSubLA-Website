@@ -1,344 +1,448 @@
 /* Linux */
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-
-.linux-jumbo {
-    background-color:  #718093;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 .linux-container {
-    text-align: center;
+  background-color: #000;
 }
 
-.linux-logo {
-    width: 80%;
-    padding-bottom: 20px;
+.big-header-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  flex-direction: column; /* Ensures content stacks vertically */
+  min-height: 87vh; /* Makes the container take full viewport height */
+  text-align: center; /* Centers text inside */
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+  color: #fff;
 }
 
-.linux-h1 {
-    font-size: 50px;
-}
-
-.linux-h3 {
-    font-size: 30px;
-    font-family: 'Source Code Pro', monospace;
-    font-weight:bold;
+.big-header {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 7.5rem;
 }
 
 .linux-p {
-    font-size: 16px;
-    font-family: 'Source Code Pro', monospace;
-    font-weight:bold;
+  font-family: "Raleway", sans-serif;
+}
+
+.linux-desc {
+  font-size: 4rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
 }
 
 .linux-listgroup {
-    text-align: left;
+  text-align: left;
 }
 
 .linux-list-item {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 16px;
-    background-color: rgb(80, 79, 79);
-    color: white;
-    
+  font-family: "Source Code Pro", monospace;
+  font-size: 16px;
+  background-color: rgb(80, 79, 79);
+  color: white;
 }
 
 .linux-methods-jumbo {
-    background: linear-gradient(-45deg, #df7300, #ffe100);
-    background-size: 200% 200%;
-    animation: gradient 15s ease infinite;
+  background: linear-gradient(-45deg, #df7300, #ffe100);
+  background-size: 200% 200%;
+  animation: gradient 15s ease infinite;
 
-    border-radius: 30px;
-    border-left: 8px solid rgb(66, 67, 64);
-    border-right: 8px solid rgb(66, 67, 64);
+  border-radius: 30px;
+  border-left: 8px solid rgb(66, 67, 64);
+  border-right: 8px solid rgb(66, 67, 64);
 }
 
 .accent-color-linux {
-    color: rgb(248, 212, 6);
-    font-family: 'Source Code Pro', monospace;
-    font-weight: bold;
-
+  color: rgb(248, 212, 6);
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
 }
 
 .linux-links-row {
-    justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 .linux-links {
-    border: 4px solid black;
-    border-radius: 20px;
-    background-color: gray;
-    color: white;
-    padding: 10px;
-    font-weight:900;
-    margin: 5px;
-    font-family: 'Source Code Pro', monospace;
+  border: 4px solid black;
+  border-radius: 20px;
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  font-weight: 900;
+  margin: 5px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
 }
 .linux-links:hover {
-    text-decoration: none;
-    color:black;
-    background-color: rgb(255, 123, 0);
-    border: 5px solid black;
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+  border: 5px solid black;
 }
 
 .linux-yt {
-    width: 500px;
-    height: 300px;
-    border: 4px solid rgb(3, 5, 3);
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 @keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* General styling for the list group */
+.linux-listgroup {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping for responsive views */
+  justify-content: space-between; /* Adds spacing between cards */
+  gap: 1rem; /* Adds spacing between cards */
+  padding: 0;
+  margin: 2rem 0;
+}
+
+/* Styling for individual cards */
+.linux-card {
+  flex: 1 1 calc(33.333% - 1rem); /* Each card takes 1/3 of the row with spacing */
+  background-color: #26292b;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.linux-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Card title styling */
+.accent-color-linux {
+  color: #ffcf00;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive view: Stack cards vertically on smaller screens */
+@media (max-width: 768px) {
+  .linux-card {
+    flex: 1 1 100%; /* Each card takes full width */
+  }
+}
+
+/* Container for the methods section */
+.linux-methods-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Row for the methods */
+.linux-methods-row {
+  display: flex;
+  flex-direction: column; /* Stack cards vertically */
+  flex-wrap: wrap; /* Allows wrapping for responsive views */
+  justify-content: space-between; /* Adds spacing between cards */
+  width: 100%; /* Ensures that row takes up all available space */
+  gap: 1.5rem; /* Add spacing between stacked cards */
+  margin: 0 auto; /* Center the row within the container */
+}
+
+/* Individual method card */
+.linux-method-card {
+  flex: 1 1 calc(33.333% - 1.5rem); /* Three cards per row */
+  background-color: #26292b;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 100% !important;
+}
+
+.linux-method-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Content inside each method */
+.linux-method {
+  text-align: center;
+}
+
+.linux-h1 {
+  font-size: 1.8rem;
+  color: #ffcf00;
+  margin-bottom: 1rem;
+}
+
+.linux-p {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  background-color: none;
+}
+
+/* Links inside the methods */
+.linux-links-row {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.linux-links {
+  color: #ffcf00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.linux-links:hover {
+  text-decoration: underline;
+}
+
+/* YouTube iframe styling */
+.linux-yt {
+  width: 100%;
+  height: 70vh;
+  margin: 1rem 0;
+  border: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .linux-method-card {
+    flex: 1 1 100%; /* Stack cards vertically on smaller screens */
+  }
+}
+
+/* iPhone X, iPhone 6/7/8 Plus, */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .big-header {
+    font-size: 4rem;
   }
 
+  .linux-desc {
+    font-size: 2rem;
+    font-weight: bold;
+  }
 
+  .linux-p {
+    font-size: 14px;
+    font-weight: bold;
+  }
 
-  /* iPhone X, iPhone 6/7/8 Plus, */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-    
+  .linux-list-item {
+    font-family: "Source Code Pro", monospace;
+    font-size: 14px;
+  }
 
-    .linux-h1 {
-        font-size: 25px;
-    
-    }
-    
-    .linux-h3 {
-        font-size: 18px;
-        font-family: 'Source Code Pro', monospace;
-        font-weight:bold;
-    }
-    
-    .linux-p {
-        font-size: 14px;
-        font-family: 'Source Code Pro', monospace;
-        font-weight:bold;
-    }
-    
-    
-    .linux-list-item {
-        font-family: 'Source Code Pro', monospace;
-        font-size: 14px;        
-    }
-    
-    .linux-links {
-        font-weight: lighter;
-        font-size: 14px;
-    }
-    .linux-links:hover {
-        text-decoration: none;
-        color:black;
-        background-color: rgb(255, 123, 0);
-        border: 5px solid black;
-    }
-    
-    .linux-yt {
-        width: 200px;
-        height: 100px;
-        border: 4px solid rgb(3, 5, 3);
-        border-radius: 10px;
-    }
+  .linux-links {
+    font-weight: lighter;
+    font-size: 2rem;
+  }
+  .linux-links:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    border: 5px solid black;
+  }
 
+  .linux-method {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .linux-yt {
+    width: 200px;
+    height: 100vh;
+    border: 4px solid rgb(3, 5, 3);
+    border-radius: 10px;
+  }
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-    .linux-h1 {
-        font-size: 25px;
-    }
-    
-    .linux-h3 {
-        font-size: 18px;
-        font-family: 'Source Code Pro', monospace;
-        font-weight:bold;
-    }
-    
-    .linux-p {
-        font-size: 14px;
-        font-family: 'Source Code Pro', monospace;
-        font-weight:bold;
-    }
-    
-    
-    .linux-list-item {
-        font-family: 'Source Code Pro', monospace;
-        font-size: 14px;        
-    }
-    
-    .linux-links {
-        font-weight: lighter;
-        font-size: 14px;
-    }
-    .linux-links:hover {
-        text-decoration: none;
-        color:black;
-        background-color: rgb(255, 123, 0);
-        border: 5px solid black;
-    }
-    
-    .linux-yt {
-        width: 200px;
-        height: 100px;
-        border: 4px solid rgb(3, 5, 3);
-        border-radius: 10px;
-    }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .linux-h1 {
+    font-size: 25px;
+  }
+
+  .linux-h3 {
+    font-size: 18px;
+    font-family: "Source Code Pro", monospace;
+    font-weight: bold;
+  }
+
+  .linux-p {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .linux-list-item {
+    font-family: "Source Code Pro", monospace;
+    font-size: 14px;
+  }
+
+  .linux-links {
+    font-weight: lighter;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+  .linux-links:hover {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 123, 0);
+    border: 5px solid black;
+  }
+
+  .linux-yt {
+    width: 350px;
+    height: 24vh;
+    border: 4px solid rgb(3, 5, 3);
+    border-radius: 10px;
+  }
 }
-
-
 
 /* ----------- Galaxy S3 ----------- */
 
 /* Portrait and Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) {
-    .linux-h1 {
-        font-size: 25px;
-    }
-    
-    .linux-h3 {
-        font-size: 18px;
-        font-family: 'Source Code Pro', monospace;
-        font-weight:bold;
-    }
-    
-    .linux-p {
-        font-size: 14px;
-        font-family: 'Source Code Pro', monospace;
-        font-weight:bold;
-    }
-    
-    .linux-list-item {
-        font-family: 'Source Code Pro', monospace;
-        font-size: 14px;        
-    }
-    
-    .linux-links {
-        font-weight: lighter;
-        font-size: 14px;
-    }
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+  .linux-h1 {
+    font-size: 25px;
+  }
 
-    .linux-links:hover {
-        text-decoration: none;
-        color:black;
-        background-color: rgb(255, 123, 0);
-        border: 5px solid black;
-    }
-    
-    .linux-yt {
-        width: 200px;
-        height: 100px;
-        border: 4px solid rgb(3, 5, 3);
-        border-radius: 10px;
-    }
+  .linux-h3 {
+    font-size: 18px;
+    font-family: "Source Code Pro", monospace;
+    font-weight: bold;
+  }
+
+  .linux-p {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .linux-list-item {
+    font-family: "Source Code Pro", monospace;
+    font-size: 14px;
+  }
+
+  .linux-links {
+    font-weight: lighter;
+    font-size: 14px;
+  }
+
+  .linux-links:hover {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 123, 0);
+    border: 5px solid black;
+  }
+
+  .linux-yt {
+    width: 200px;
+    height: 100px;
+    border: 4px solid rgb(3, 5, 3);
+    border-radius: 10px;
+  }
 }
 
 /* ----------- Galaxy S4, S5 and Note 3 ----------- */
 
 /* Portrait and Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) {
-    .linux-h1 {
-        font-size: 25px;
-    }
-    
-    .linux-h3 {
-        font-size: 18px;
-        font-family: 'Source Code Pro', monospace;
-        font-weight:bold;
-    }
-    
-    .linux-p {
-        font-size: 14px;
-        font-family: 'Source Code Pro', monospace;
-        font-weight:bold;
-    }
-    
-    .linux-list-item {
-        font-family: 'Source Code Pro', monospace;
-        font-size: 14px;        
-    }
-    
-    .linux-links {
-        font-weight: lighter;
-        font-size: 14px;
-    }
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .linux-h1 {
+    font-size: 25px;
+  }
 
-    .linux-links:hover {
-        text-decoration: none;
-        color:black;
-        background-color: rgb(255, 123, 0);
-        border: 5px solid black;
-    }
-    
-    .linux-yt {
-        width: 200px;
-        height: 100px;
-        border: 4px solid rgb(3, 5, 3);
-        border-radius: 10px;
-    }
+  .linux-h3 {
+    font-size: 18px;
+    font-family: "Source Code Pro", monospace;
+    font-weight: bold;
+  }
+
+  .linux-p {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .linux-list-item {
+    font-family: "Source Code Pro", monospace;
+    font-size: 14px;
+  }
+
+  .linux-links {
+    font-weight: lighter;
+    font-size: 14px;
+  }
+
+  .linux-links:hover {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 123, 0);
+    border: 5px solid black;
+  }
+
+  .linux-yt {
+    width: 200px;
+    height: 100px;
+    border: 4px solid rgb(3, 5, 3);
+    border-radius: 10px;
+  }
 }
 
 /* ----------- iPad 1, 2, Mini and Air ----------- */
 
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-    .linux-h1 {
-        font-size: 35px;
-    }
-    
-    .linux-h3 {
-        font-size: 22px;
-        font-family: 'Source Code Pro', monospace;
-        font-weight:bold;
-    }
-    
-    .linux-p {
-        font-size: 16px;
-        font-family: 'Source Code Pro', monospace;
-        font-weight:bold;
-    }
-    
-    
-    .linux-list-item {
-        font-family: 'Source Code Pro', monospace;
-        font-size: 14px;        
-    }
-    
-    .linux-links {
-        font-weight: lighter;
-        font-size: 16px;
-    }
-    .linux-links:hover {
-        text-decoration: none;
-        color:black;
-        background-color: rgb(255, 123, 0);
-        border: 5px solid black;
-    }
-    
-    .linux-yt {
-        width: 400px;
-        height: 200px;
-        border: 4px solid rgb(3, 5, 3);
-        border-radius: 10px;
-    }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .linux-h1 {
+    font-size: 35px;
+  }
+
+  .linux-h3 {
+    font-size: 22px;
+    font-family: "Source Code Pro", monospace;
+    font-weight: bold;
+  }
+
+  .linux-p {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .linux-list-item {
+    font-family: "Source Code Pro", monospace;
+    font-size: 14px;
+  }
+
+  .linux-links {
+    font-weight: lighter;
+    font-size: 16px;
+  }
+  .linux-links:hover {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 123, 0);
+    border: 5px solid black;
+  }
+
+  .linux-yt {
+    width: 400px;
+    height: 200px;
+    border: 4px solid rgb(3, 5, 3);
+    border-radius: 10px;
+  }
 }

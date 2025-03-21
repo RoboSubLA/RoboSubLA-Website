@@ -9,6 +9,13 @@
   background-color: #000;
 }
 
+.top-block {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+}
+
 .inner-top {
   color: dodgerblue;
   letter-spacing: 0.2rem;
@@ -21,7 +28,7 @@
 }
 
 .resources-section-p {
-  font-size: 1.25rem;
+  font-size: 1.7rem;
   padding: 2rem;
 }
 
@@ -43,19 +50,14 @@
 }
 
 .content-title {
-  font-size: 2rem;
+  font-size: 4rem;
   margin-bottom: 1rem;
   padding-top: 2rem;
 }
 
-.content-text {
-  font-size: 1.25rem;
-  font-family: "Raleway", sans-serif;
-  font-weight: normal;
-}
-
+.content-text,
 .resource-text {
-  font-size: 1.25rem;
+  font-size: 1.7rem;
   font-family: "Raleway", sans-serif;
   font-weight: normal;
 }

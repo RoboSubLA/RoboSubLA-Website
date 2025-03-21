@@ -16,7 +16,8 @@
 }
 
 .page:hover {
-text-decoration: none;}
+  text-decoration: none;
+}
 
 .navbar-container {
   display: flex;
@@ -62,7 +63,13 @@ text-decoration: none;}
   text-decoration: none;
   color: #fffefe;
   padding: 10px 0;
+  font-size: 1.1rem;
 }
+
+.nav-links.active {
+  color: #ffcf00;
+}
+
 nav {
   display: table;
   table-layout: fixed;
@@ -114,8 +121,6 @@ a:hover {
 .sign-up-button {
   background-color: #fff !important;
 }
-
-
 
 @media screen and (max-width: 970px) {
   .NavbarItems {
@@ -223,30 +228,37 @@ button,
     width: 100%;
   } */
 
-  @media screen and (max-width: 970px) {
-    .nav-links:hover {
-        /* text-decoration: none; */
-        background-color: transparent !important;
-        color: #242424;
-        border-radius: 0;
-        border-bottom: none;
-    }
+@media screen and (max-width: 970px) {
+  .nav-links:hover {
+    /* text-decoration: none; */
+    background-color: transparent !important;
+    color: #242424;
+    border-radius: 0;
+    border-bottom: none;
+  }
 
-    .nav-menu {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: auto;
-      position: absolute;
-      top: 80px;
-      left: -100%;
-      opacity: 1;
-      transition: all 0.5sease;
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5sease;
+  }
+
+  .nav-menu.active {
+    background: #242222;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    height: 67vh;
+  }
+
+  .nav-links {
+    padding: 1.5rem;
   }
 }
-
-
-
-
-
-

@@ -13,7 +13,7 @@ function Footer() {
               <i className="gi gi-submarine"></i>
             </Link>
           </div>
-          <small className="website-rights">Robosub © 2024</small>
+          <small className="website-rights">Robosub © 2025</small>
           <div className="social-icons">
             <a
               className="social-icon-link instagram"

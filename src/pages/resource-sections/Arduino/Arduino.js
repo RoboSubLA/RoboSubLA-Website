@@ -5,7 +5,7 @@ import "./Arduino.css";
 const Arduino = () => {
   return (
     <Container className="arduino-container">
-      <section className="header">
+      <section className="arduino-header">
         <h1 className="resources-section-h1">Arduino Resources</h1>
         <p className="resources-section-p">
           Here you will find resources to help you get started with Arduino,

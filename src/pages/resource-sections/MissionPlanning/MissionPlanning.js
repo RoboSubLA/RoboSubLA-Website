@@ -9,7 +9,7 @@ import "./MissionPlanning.css";
 const MissionPlanning = () => {
   return (
     <Container className="mission-planning-container">
-      <section className="header">
+      <section className="header top-block">
         <h1 className="resources-section-h1">Mission Planning</h1>
         <p className="resources-section-p">
           The <span className="inner-top">Mission Planning</span> team is
