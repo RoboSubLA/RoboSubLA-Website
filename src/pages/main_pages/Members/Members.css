@@ -160,6 +160,61 @@
   font-display: gray;
 }
 
+/* Senior Design CS Portion 2025 */
+
+.senior-design-cs-section {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.section-heading {
+  background-color: #000;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 7rem;
+  letter-spacing: 0.2rem;
+  margin: 0;
+}
+
+.team-photo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  cursor: pointer; /* Make it clear the image is clickable */
+  transition: transform 0.3s ease;
+}
+
+.team-photo:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.enlarged-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.team-description {
+  font-size: 2rem;
+  color: #000;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .section-heading {
+    font-size: 4rem;
+  }
+
+  .team-description {
+    font-size: 1.5rem;
+  }
+}
+
 /* iPhone X, iPhone 6/7/8 Plus, */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   .cont {

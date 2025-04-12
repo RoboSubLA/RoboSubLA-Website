@@ -34,6 +34,7 @@
 
 .video-btns {
   margin-top: 32px;
+  margin-bottom: 2rem;
 }
 
 .video-btns .btn {
@@ -166,6 +167,7 @@
 
   .title {
     font-size: 2rem;
+    margin-top: 2rem !important;
   }
 
   #under-p {
@@ -191,7 +193,7 @@
   }
 
   .main-video-container {
-    height: 150vh;
+    height: 80vh;
   }
 
   .main-video-container > h1 {

@@ -185,3 +185,31 @@
   margin-bottom: 1rem;
   font-family: "Raleway", sans-serif;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .github-p {
+    font-size: 1.2rem !important;
+  }
+
+  .github-resources-section-p {
+    font-size: 1.2rem !important;
+  }
+
+  .text-container {
+    padding: 2rem 2rem;
+  }
+
+  .git-links {
+    padding: 1rem 0;
+  }
+
+  .git-card {
+    width: 90vw !important;
+  }
+
+  .banner-container {
+    align-items: center;
+    align-content: center;
+    min-height: 75vh;
+  }
+}

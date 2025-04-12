@@ -70,35 +70,109 @@
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-  .sidebar-content-container .sidebar {
-    display: none;
+  .side-tab {
+    transition: transform 0.3s ease;
+    width: 250px; /* Adjust based on your design */
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1000;
+    transform: translateX(-100%);
   }
 
-  .side-tab,
   .fixed-sidebar {
-    display: none !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1000;
   }
 
-  .content {
-    width: 100%;
-    padding: 1rem;
+  .chevron-icon {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    cursor: pointer;
+    z-index: 1001;
+    transition: left 0.3s ease;
+  }
+
+  .chevron-icon.open {
+    left: 250px; /* Adjust based on sidebar width */
+  }
+
+  .side-tab.open {
+    transform: translateX(0);
+  }
+
+  @media (max-width: 767px) {
+    .side-tab {
+      transform: translateX(-100%);
+    }
+
+    .side-tab.open {
+      transform: translateX(0);
+    }
   }
 }
 
 /* Media query for iPad Air */
 @media only screen and (min-device-width: 820px) and (max-device-width: 1180px) and (-webkit-min-device-pixel-ratio: 2) {
-  .sidebar-content-container .sidebar {
-    display: none;
+  .side-tab {
+    transition: transform 0.3s ease;
+    width: 250px; /* Adjust based on your design */
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1000;
+    transform: translateX(-100%);
   }
 
-  .side-tab,
   .fixed-sidebar {
-    display: none !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1000;
   }
 
-  .content {
-    width: 100%;
-    padding: 1rem;
+  .chevron-icon {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    cursor: pointer;
+    z-index: 1001;
+    transition: left 0.3s ease;
+  }
+
+  .chevron-icon.open {
+    left: 250px; /* Adjust based on sidebar width */
+  }
+
+  .side-tab.open {
+    transform: translateX(0);
+  }
+
+  @media (max-width: 767px) {
+    .side-tab {
+      transform: translateX(-100%);
+    }
+
+    .side-tab.open {
+      transform: translateX(0);
+    }
   }
 }
 
@@ -153,4 +227,8 @@
       transform: translateX(0);
     }
   }
+}
+
+/*-----Surface Pro 7-----*/
+@media only screen and (min-device-width: 912) {
 }

@@ -13,6 +13,13 @@
   color: #fff;
 }
 
+.video-content-item {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+}
+
 .arduino-container {
   background-color: #000;
 }
@@ -94,4 +101,18 @@
 .resource-text {
   font-size: 1.25rem;
   margin-top: 1rem;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .arduino-link {
+    font-size: 1.5rem !important;
+  }
+
+  .link-content-section {
+    padding: 2rem 2rem;
+  }
+
+  .arduino-text {
+    font-size: 1.2rem !important;
+  }
 }

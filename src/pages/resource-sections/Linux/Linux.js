@@ -116,7 +116,7 @@ const Linux = () => {
           <Col md={4} className="linux-method-card">
             <div className="linux-method">
               <h3 className="linux-h1">Virtualization</h3>
-              <p className="linux-p">
+              <p className="linux-p nbgc-linux-p">
                 Virtualization involves installing an emulator to run an
                 instance of the Linux OS inside a window on a host computer. It
                 is easy to implement but requires at least 8GB of RAM.

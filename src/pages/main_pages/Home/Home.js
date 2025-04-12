@@ -16,7 +16,7 @@ const About = () => {
             <h1 className="about-header">About Us!</h1>
           </div>
           <div class="row">
-            <div class="col col-6-md">
+            <div class="col col-6-md text-col-one">
               <p className="about-p">
                 Welcome to the <strong>RoboSub</strong> team at{" "}
                 <strong>California State University, Los Angeles!</strong> We
@@ -27,7 +27,7 @@ const About = () => {
                 skills while connecting with like-minded peers.
               </p>
             </div>
-            <div class="col col-lg">
+            <div class="col col-lg image-col-one">
               <div className="image-container">
                 <Image
                   className="csula-logo"
@@ -43,7 +43,7 @@ const About = () => {
       <div className="middle-section">
         <div class="container">
           <div class="row">
-            <div class="col col-lg">
+            <div class="col col-lg image-col-two">
               <div className="image-container">
                 <Image
                   className="robosubla-logo"
@@ -56,7 +56,7 @@ const About = () => {
                 ></Image>
               </div>
             </div>
-            <div class="col col-6-md">
+            <div class="col col-6-md text-col-two">
               <p className="about-p">
                 Our team is divided into two groups:{" "}
                 <strong>club organization</strong> and the{" "}

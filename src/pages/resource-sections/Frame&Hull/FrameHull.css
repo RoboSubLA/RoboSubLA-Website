@@ -17,7 +17,7 @@
   background-color: #000;
 }
 
-.linux-p {
+.hull-p {
   font-size: 1.7rem;
   padding: 2rem;
   color: #fff;
@@ -119,12 +119,18 @@
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  .header-top,
   .linux-h1 {
-    font-size: 3.5rem !important;
+    font-size: 2.5rem !important;
+    padding: 2rem 0;
   }
 
-  .linux-p {
+  .hull-p {
     font-size: 1.2rem;
+  }
+
+  .header-top {
+    font-size: 2.5rem;
+    padding: 2rem 2rem;
+    height: 73vh !important;
   }
 }

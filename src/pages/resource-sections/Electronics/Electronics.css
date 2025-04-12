@@ -145,4 +145,32 @@
   .card-text {
     font-size: 1rem;
   }
+
+  .electronics-h1 {
+    padding: 0;
+    font-size: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .electronics-section {
+    padding: 2rem 2rem;
+    height: 76.1vh !important;
+  }
+
+  .electronics-p {
+    font-size: 1.2rem !important;
+  }
+
+  .electronics-video-container {
+    height: 50vh !important;
+    padding: 0;
+  }
+
+  .electronics-top {
+    padding-bottom: 0 !important;
+  }
+
+  .electronics-bottom {
+    padding-top: 0 !important;
+  }
 }

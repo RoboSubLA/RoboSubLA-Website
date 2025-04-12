@@ -6,8 +6,10 @@ const Electronics = () => {
   return (
     <Container className="electronics-container">
       <section className="electronics-section">
-        <h1 className="resources-section-h1">Electronics/Power Team</h1>
-        <p className="resources-section-p">
+        <h1 className="resources-section-h1 electronics-h1">
+          Electronics/Power Team
+        </h1>
+        <p className="resources-section-p electronics-p">
           The <span className="inner-top">Electronics/Power</span> team is in
           charge of converting the internal currents from the battery to all the
           other electronic parts in the robot!
@@ -16,11 +18,11 @@ const Electronics = () => {
 
       <section className="card-content-section">
         <Row>
-          <Col md={6} className="electronics-card-col">
+          <Col md={6} className="electronics-card-col electronics-top">
             <Card className="electronics-card">
               <Card.Body className="electronics-card-body">
                 <Card.Title className="card-title">Buck Converter</Card.Title>
-                <Card.Text>
+                <Card.Text className="electronics-p">
                   Buck Converters, usually labeled as DC/DC Buck Converters, are
                   converters that efficiently convert high voltage into low
                   voltages to extend battery life and reduce heat. This allows
@@ -29,7 +31,7 @@ const Electronics = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={6} className="electronics-card-col">
+          <Col md={6} className="electronics-card-col electronics-bottom">
             <Card className="electronics-card">
               <Card.Body>
                 <Card.Title className="card-title">

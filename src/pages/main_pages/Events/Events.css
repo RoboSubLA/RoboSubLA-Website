@@ -91,3 +91,30 @@ h1 {
     transform: translateX(25%);
   }
 }
+
+.placeholder {
+  color: #ffcf10;
+  font-size: 7rem;
+}
+
+.event-container {
+  background-color: black;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .placeholder {
+    font-size: 2rem;
+    padding: 2rem 2rem;
+  }
+
+  .event-container {
+    background-size: auto;
+    width: auto !important;
+    min-width: auto;
+    min-height: 70vh;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #ffcf00;
+    border-width: 7px;
+  }
+}

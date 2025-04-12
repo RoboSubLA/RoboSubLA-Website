@@ -171,3 +171,17 @@
 .figure-caption:hover {
   color: #fff;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .content-title {
+    font-size: 3rem;
+  }
+
+  .mission-text {
+    font-size: 1.2rem;
+  }
+
+  .top-block {
+    height: 75vh !important;
+  }
+}

@@ -1,0 +1,152 @@
+.ros-banner-container {
+  text-align: center;
+  height: 70vh;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  height: 95vh;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+  background-color: #000;
+  color: #fff;
+}
+
+.ros-content-section {
+  text-align: center;
+  height: 70vh;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  height: 87vh;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+  background-color: #000;
+  color: #fff;
+}
+
+.ros-card-container {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #ffcf00;
+  border-width: 7px;
+  background-color: #000;
+  color: #fff;
+}
+
+.ros-logo {
+  padding-left: 0 !important;
+}
+
+.ros-ubuntu {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+
+.ros-commands {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+}
+
+.ros-code {
+  font-size: 1.25rem !important;
+  background-color: #000 !important;
+  color: dodgerblue;
+}
+
+.installation-top {
+  font-size: 2rem;
+  padding-bottom: 2rem !important;
+}
+
+.ros-install {
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+
+.ros-card-title.card-title {
+  font-size: 4rem !important;
+  padding-top: 2rem;
+}
+
+.ros-cheat-p {
+  color: #fff !important;
+  font-size: 2rem !important;
+  padding: 1rem 0 !important;
+}
+
+.ros-text-description {
+  font-size: 2.25rem;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.ros-card-text.card-text {
+  font-size: 1.25rem !important;
+  padding: 2rem 0;
+}
+
+.ros-card-body {
+  background-color: #000;
+  border: none;
+}
+
+.ros-links {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.ros-card-title,
+.ros-card-text {
+  color: #fff;
+}
+
+.ros-card {
+  margin: 0;
+  font-family: "Bebas Neue", sans-serif !important;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .ros-banner-container {
+    height: 75.1vh !important;
+  }
+
+  .ros-content-section {
+    padding: 0rem 2rem;
+    height: 100vh;
+  }
+
+  .ros-ubuntu {
+    font-size: 3rem !important;
+  }
+  .ros-commands {
+    font-size: 1.5rem !important;
+  }
+
+  .ros-code {
+    font-size: 1rem !important;
+    font-weight: bold;
+    margin: 0 !important;
+  }
+
+  .ros-card-text {
+    font-size: 1.2rem !important;
+  }
+
+  .ros-card-body {
+    padding: 0 2rem;
+  }
+
+  .ros-cheat-p {
+    font-size: 1rem !important;
+  }
+}

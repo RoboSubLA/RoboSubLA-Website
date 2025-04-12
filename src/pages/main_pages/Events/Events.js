@@ -4,7 +4,8 @@ import "./Events.css";
 const Events = () => {
   return (
     <div className="event-container">
-      <div className="bg" align="center"></div>
+      <h1 className="placeholder">COMING SOON</h1>
+      {/* <div className="bg" align="center"></div>
       <div className="bg bg2" align="center"></div>
       <div className="bg bg3" align="center"></div>
       <div className="content" align="center">
@@ -19,7 +20,7 @@ const Events = () => {
             scrolling="no"
           ></iframe>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

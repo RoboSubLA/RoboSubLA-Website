@@ -10,7 +10,7 @@ function FrameHull() {
         <h1 className="linux- header-top">Introductory SolidWorks Tutorials</h1>
       </div>
 
-      <p className="linux-p">
+      <p className="hull-p">
         The <span className="inner-top">Frame and Hull Subteam</span> primarily
         utilizes SolidWorks for building our 3D model of the robotic submarine.
         To ensure everyone can contribute to building the model, we host

@@ -19,7 +19,9 @@ const LazySections = ({ activeKey, handleToggle }) => (
     </section>
 
     <section className="header-two">
-      <h3 className="resources-section-h3 sub-header">What is RoboSub?</h3>
+      <h3 className="resources-section-h3 sub-header top-sub">
+        What is RoboSub?
+      </h3>
       <p className="resources-section-p">
         RoboSub is an international student competition. Student teams from
         around the world design and build robotic submarines, otherwise known as
@@ -28,8 +30,10 @@ const LazySections = ({ activeKey, handleToggle }) => (
         deployed around the world for underwater exploration, seafloor mapping,
         and sonar localization, amongst many others.
       </p>
-      <h3 className="resources-section-h3 sub-header">The Competition</h3>
-      <p className="resources-section-p">
+      <h3 className="resources-section-h3 sub-header bottom-sub">
+        The Competition
+      </h3>
+      <p className="resources-section-p sub-text">
         Assemble your team and get busy designing, building and testing the
         sub-systems of your AUV. Now put it all together and demonstrate your
         vehicles autonomy by completing a series of tasks through a pre-defined

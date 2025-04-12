@@ -16,11 +16,13 @@ const Arduino = () => {
       <section className="link-content-section">
         <div className="content-item">
           <h2 className="content-title">Install Arduino IDE</h2>
-          <p className="content-text">Instructions to install IDE here</p>
+          <p className="content-text arduino-text">
+            Instructions to install IDE here
+          </p>
           <div className="row row-holder">
             <div className="col col-sm">
               <a
-                className="resource-links"
+                className="resource-links arduino-link"
                 href="https://www.arduino.cc/en/Guide/Windows"
               >
                 <i className="fab fa-windows"> Windows</i>
@@ -29,7 +31,7 @@ const Arduino = () => {
 
             <div className="col col-sm">
               <a
-                className="resource-links"
+                className="resource-links arduino-link"
                 href="https://www.arduino.cc/en/Guide/MacOSX"
               >
                 <i className="fab fa-apple"> Mac OS</i>
@@ -38,7 +40,7 @@ const Arduino = () => {
 
             <div className="col col-sm">
               <a
-                className="resource-links"
+                className="resource-links arduino-link"
                 href="https://www.arduino.cc/en/Guide/Linux"
               >
                 <i className="fab fa-linux"></i> Linux

@@ -18,6 +18,15 @@
 .sub-header {
   font-size: 4.5rem !important;
   font-weight: bold;
+  padding: 2rem 2rem;
+}
+
+.top-sub {
+  margin-top: 4rem;
+}
+
+.sub-text {
+  margin-bottom: 4rem;
 }
 
 .second-header {
@@ -270,11 +279,15 @@
     padding: 1rem 0;
   }
 
+  .sub-header {
+    font-size: 4rem !important;
+  }
+
   .header-one {
     padding: 2rem 2rem;
     align-items: center;
     align-content: center;
-    height: auto;
+    min-height: 76vh;
   }
 
   .header-two {
@@ -288,7 +301,7 @@
     padding: 0 !important;
     align-items: center;
     align-content: center;
-    height: 160vh !important;
+    height: 135vh !important;
   }
 
   .header-three {
@@ -302,7 +315,7 @@
     padding: 2rem 2rem;
     align-items: center;
     align-content: center;
-    height: 150vh !important;
+    height: 180vh !important;
   }
 
   .getstarted-a {
@@ -310,7 +323,13 @@
   }
 
   .resources-section-p {
-    font-size: 1rem !important;
+    font-size: 1.2rem !important;
+  }
+}
+
+@media only screen and (min-device-width: 412px) {
+  .header-one {
+    min-height: 63vh;
   }
 }
 
@@ -337,4 +356,22 @@
   margin-bottom: 0;
   background-color: rgba(255, 255, 255, 0.05);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/*-----Ipad Air-----*/
+@media only screen and (min-width: 820px) and (max-width: 1180px) {
+  .container {
+    max-width: 110vw !important;
+  }
+}
+
+/*-----Ipad Pro-----*/
+@media only screen and (min-device-width: 768px) {
+  .container {
+    max-width: 110vw !important;
+  }
+}
+
+/*-----Surface Pro 7-----*/
+@media only screen and (min-device-width: 768px) {
 }

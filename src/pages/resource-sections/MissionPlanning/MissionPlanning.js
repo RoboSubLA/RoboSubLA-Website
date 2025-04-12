@@ -21,18 +21,18 @@ const MissionPlanning = () => {
       <section className="content-section">
         <div className="content-item">
           <h2 className="content-title">Task Planning</h2>
-          <p className="content-text">
+          <p className="content-text mission-text">
             The Mission Planning team outlines the tasks that the AUV needs to
             complete during the competition, ensuring that each task is executed
             efficiently.
           </p>
         </div>
 
-        <p className="resource-text">
+        <p className="resource-text mission-text">
           Refer to the following link for a guide on Smach, which is used for
           state machines.
         </p>
-        <p className="resource-text">
+        <p className="resource-text mission-text">
           Note that SMACH requires ROS, which must be installed on Ubuntu. Refer
           to the Ros tutorial for instructions on how to use Ubuntu on your
           operating system.

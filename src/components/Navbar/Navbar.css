@@ -192,7 +192,7 @@ a:hover {
     text-align: center;
     margin: 2rem auto;
     border-radius: 4px;
-    width: 26%;
+    width: 30%;
     text-decoration: none;
     font-size: 1.5rem;
     background-color: transparent;
@@ -255,10 +255,16 @@ button,
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
-    height: 67vh;
+    height: 82vh;
   }
 
   .nav-links {
     padding: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 820px) and (max-width: 1180px) {
+  .nav-menu.active {
+    height: 51vh;
   }
 }
