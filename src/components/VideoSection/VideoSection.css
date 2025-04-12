@@ -216,3 +216,9 @@
     gap: 4rem;
   }
 }
+
+@media only screen and (min-device-width: 412px) {
+  .main-video-container {
+    height: 85vh !important;
+  }
+}
