@@ -394,3 +394,11 @@ strong {
   font-size: 1.7rem;
   letter-spacing: 0.2rem;
 }
+
+@media only screen and (max-device-width: 412px) {
+  .main-video-container {
+    /* height: 125vh !important; */
+    height: 95vh !important;
+    padding-top: 0rem;
+  }
+}

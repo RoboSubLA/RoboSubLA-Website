@@ -184,6 +184,7 @@
   margin-bottom: 1rem;
   cursor: pointer; /* Make it clear the image is clickable */
   transition: transform 0.3s ease;
+  padding: 2rem 2rem;
 }
 
 .team-photo:hover {
@@ -211,7 +212,23 @@
   }
 
   .team-description {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    padding: 0 2rem;
+  }
+
+  strong {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .team-photo {
+    padding: 2rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .modal-body {
+    padding: 1rem; /* Reduce padding for smaller screens */
   }
 }
 

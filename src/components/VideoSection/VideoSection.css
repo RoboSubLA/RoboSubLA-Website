@@ -1,6 +1,6 @@
 .main-video-container {
   /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
-  height: 100vh;
+  height: 86vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -8,6 +8,7 @@
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
+  padding-top: 15rem;
 }
 
 .btn {
@@ -161,6 +162,10 @@
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 760px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* .main-video-container {
+    padding-top: 10rem;
+  } */
+
   .main-video-container > h1 {
     font-size: 2.5rem;
   }
@@ -193,7 +198,8 @@
   }
 
   .main-video-container {
-    height: 80vh;
+    height: 60vh;
+    /* padding-top: 5rem; */
   }
 
   .main-video-container > h1 {
@@ -214,11 +220,5 @@
   .col {
     padding: 0;
     gap: 4rem;
-  }
-}
-
-@media only screen and (min-device-width: 412px) {
-  .main-video-container {
-    height: 85vh !important;
   }
 }

@@ -89,7 +89,7 @@ const Members = () => {
           <Modal.Body>
             <img
               src="/images/members/RoboSub_team_photo_2025-03.png"
-              alt="RoboSub Team 2025"
+              alt="RoboSub CS Team 2025"
               className="enlarged-photo"
             />
           </Modal.Body>
